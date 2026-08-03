@@ -1,0 +1,54 @@
+{
+  "package_name": "athena_interfaces",
+  "output_dir": "/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_c/athena_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/SystemHealth.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/SystemStatus.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/VehicleState.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/MissionStatus.idl"
+  ],
+  "ros_interface_files": [
+    "/home/doja/athena_ws/src/athena_interfaces/msg/SystemHealth.msg",
+    "/home/doja/athena_ws/src/athena_interfaces/msg/SystemStatus.msg",
+    "/home/doja/athena_ws/src/athena_interfaces/msg/VehicleState.msg",
+    "/home/doja/athena_ws/src/athena_interfaces/msg/MissionStatus.msg"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/SystemHealth.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/SystemStatus.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/VehicleState.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/MissionStatus.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/SystemHealth.idl:/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/SystemHealth.json",
+    "msg/SystemStatus.idl:/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/SystemStatus.json",
+    "msg/VehicleState.idl:/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/VehicleState.json",
+    "msg/MissionStatus.idl:/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/MissionStatus.json"
+  ]
+}

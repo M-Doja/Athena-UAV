@@ -1,0 +1,100 @@
+// generated from rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em
+// with input from athena_interfaces:msg/SystemHealth.idl
+// generated code does not contain a copyright notice
+
+#ifndef ATHENA_INTERFACES__MSG__DETAIL__SYSTEM_HEALTH__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
+#define ATHENA_INTERFACES__MSG__DETAIL__SYSTEM_HEALTH__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
+
+#include <cstddef>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "athena_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
+#include "athena_interfaces/msg/detail/system_health__struct.hpp"
+
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-parameter"
+# ifdef __clang__
+#  pragma clang diagnostic ignored "-Wdeprecated-register"
+#  pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
+# endif
+#endif
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+
+#include "fastcdr/Cdr.h"
+
+namespace athena_interfaces
+{
+
+namespace msg
+{
+
+namespace typesupport_fastrtps_cpp
+{
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_athena_interfaces
+cdr_serialize(
+  const athena_interfaces::msg::SystemHealth & ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_athena_interfaces
+cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  athena_interfaces::msg::SystemHealth & ros_message);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_athena_interfaces
+get_serialized_size(
+  const athena_interfaces::msg::SystemHealth & ros_message,
+  size_t current_alignment);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_athena_interfaces
+max_serialized_size_SystemHealth(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_athena_interfaces
+cdr_serialize_key(
+  const athena_interfaces::msg::SystemHealth & ros_message,
+  eprosima::fastcdr::Cdr &);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_athena_interfaces
+get_serialized_size_key(
+  const athena_interfaces::msg::SystemHealth & ros_message,
+  size_t current_alignment);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_athena_interfaces
+max_serialized_size_key_SystemHealth(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+}  // namespace typesupport_fastrtps_cpp
+
+}  // namespace msg
+
+}  // namespace athena_interfaces
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_athena_interfaces
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, athena_interfaces, msg, SystemHealth)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // ATHENA_INTERFACES__MSG__DETAIL__SYSTEM_HEALTH__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_

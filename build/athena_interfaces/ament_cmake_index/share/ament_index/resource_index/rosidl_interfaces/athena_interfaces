@@ -1,0 +1,8 @@
+msg/MissionStatus.idl
+msg/MissionStatus.msg
+msg/SystemHealth.idl
+msg/SystemHealth.msg
+msg/SystemStatus.idl
+msg/SystemStatus.msg
+msg/VehicleState.idl
+msg/VehicleState.msg

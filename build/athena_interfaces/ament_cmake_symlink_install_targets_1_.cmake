@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_py/athena_interfaces/athena_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "athena_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/athena_interfaces")

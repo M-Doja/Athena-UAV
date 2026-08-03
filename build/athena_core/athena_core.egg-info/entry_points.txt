@@ -1,0 +1,2 @@
+[console_scripts]
+athena_manager = athena_core.athena_manager:main

@@ -1,0 +1,13 @@
+{
+  "package_name": "athena_interfaces",
+  "output_dir": "/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces",
+  "idl_tuples": [
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/SystemHealth.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/SystemStatus.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/VehicleState.idl",
+    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/MissionStatus.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

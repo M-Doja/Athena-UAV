@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+athena_bringup/__init__.py
+athena_bringup.egg-info/PKG-INFO
+athena_bringup.egg-info/SOURCES.txt
+athena_bringup.egg-info/dependency_links.txt
+athena_bringup.egg-info/requires.txt
+athena_bringup.egg-info/top_level.txt
+athena_bringup.egg-info/zip-safe
+launch/athena.launch.py
+resource/athena_bringup

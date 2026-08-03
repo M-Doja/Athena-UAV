@@ -1,0 +1,31 @@
+[0.017s] Invoking command in '/home/doja/athena_ws/build/athena_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doja/athena_ws/install/athena_health_manager:/home/doja/athena_ws/install/athena_core:/home/doja/athena_ws/install/athena_bringup:/opt/ros/jazzy /usr/bin/cmake /home/doja/athena_ws/src/athena_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/doja/athena_ws/install/athena_interfaces
+[0.248s] -- The C compiler identification is GNU 13.3.0
+[0.913s] -- The CXX compiler identification is GNU 13.3.0
+[1.295s] -- Detecting C compiler ABI info
+[1.470s] -- Detecting C compiler ABI info - done
+[1.476s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.477s] -- Detecting C compile features
+[1.478s] -- Detecting C compile features - done
+[1.541s] -- Detecting CXX compiler ABI info
+[1.711s] -- Detecting CXX compiler ABI info - done
+[1.718s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.718s] -- Detecting CXX compile features
+[1.719s] -- Detecting CXX compile features - done
+[1.731s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.851s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.925s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.962s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.435s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.439s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.889s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.623s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.723s] -- Found PythonExtra: /usr/bin/python3  
+[4.106s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.156s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.173s] -- Configuring done (4.1s)
+[4.209s] -- Generating done (0.0s)
+[4.219s] -- Build files have been written to: /home/doja/athena_ws/build/athena_interfaces

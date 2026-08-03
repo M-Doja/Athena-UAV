@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/mission_status__type_support.c.o"
+  "CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/mission_status__type_support.c.o.d"
+  "CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_health__type_support.c.o"
+  "CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_health__type_support.c.o.d"
+  "CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_status__type_support.c.o"
+  "CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_status__type_support.c.o.d"
+  "CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/vehicle_state__type_support.c.o"
+  "CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/vehicle_state__type_support.c.o.d"
+  "libathena_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libathena_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/mission_status__type_support.c"
+  "rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_health__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_health__type_support.c"
+  "rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_status__type_support.c"
+  "rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/vehicle_state__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

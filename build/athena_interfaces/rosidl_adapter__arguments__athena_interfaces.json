@@ -1,0 +1,9 @@
+{
+  "package_name": "athena_interfaces",
+  "non_idl_tuples": [
+    "/home/doja/athena_ws/src/athena_interfaces:msg/SystemHealth.msg",
+    "/home/doja/athena_ws/src/athena_interfaces:msg/SystemStatus.msg",
+    "/home/doja/athena_ws/src/athena_interfaces:msg/VehicleState.msg",
+    "/home/doja/athena_ws/src/athena_interfaces:msg/MissionStatus.msg"
+  ]
+}

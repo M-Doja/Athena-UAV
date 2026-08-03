@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+athena_core/__init__.py
+athena_core/athena_manager.py
+athena_core.egg-info/PKG-INFO
+athena_core.egg-info/SOURCES.txt
+athena_core.egg-info/dependency_links.txt
+athena_core.egg-info/entry_points.txt
+athena_core.egg-info/requires.txt
+athena_core.egg-info/top_level.txt
+athena_core.egg-info/zip-safe
+resource/athena_core

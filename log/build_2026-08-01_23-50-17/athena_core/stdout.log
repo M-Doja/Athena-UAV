@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing athena_core.egg-info/PKG-INFO
+writing dependency_links to athena_core.egg-info/dependency_links.txt
+writing entry points to athena_core.egg-info/entry_points.txt
+writing requirements to athena_core.egg-info/requires.txt
+writing top-level names to athena_core.egg-info/top_level.txt
+reading manifest file 'athena_core.egg-info/SOURCES.txt'
+writing manifest file 'athena_core.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/doja/athena_ws/install/athena_core/lib/python3.12/site-packages/athena-core.egg-link (link to .)
+Installing athena_manager script to /home/doja/athena_ws/install/athena_core/lib/athena_core
+
+Installed /home/doja/athena_ws/build/athena_core
+running symlink_data

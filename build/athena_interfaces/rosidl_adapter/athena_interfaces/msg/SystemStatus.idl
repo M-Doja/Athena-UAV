@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from athena_interfaces/msg/SystemStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module athena_interfaces {
+  module msg {
+    struct SystemStatus {
+      string overall_state;
+
+      uint32 active_nodes;
+
+      uint32 warning_count;
+
+      uint32 error_count;
+
+      builtin_interfaces::msg::Time timestamp;
+    };
+  };
+};
