@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/athena-uav/Athena/Athena-UAV/build/athena_health_manager
+prepend-non-duplicate;PYTHONPATH;/home/athena-uav/Athena/athena_ws/build/athena_health_manager

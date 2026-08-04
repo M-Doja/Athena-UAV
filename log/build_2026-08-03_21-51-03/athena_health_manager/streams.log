@@ -1,0 +1,24 @@
+[10.754s] Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_health_manager': AMENT_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_health_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_health_manager/build --no-deps symlink_data
+[12.758s] running develop
+[14.752s] running egg_info
+[14.761s] creating athena_health_manager.egg-info
+[14.933s] writing athena_health_manager.egg-info/PKG-INFO
+[14.934s] writing dependency_links to athena_health_manager.egg-info/dependency_links.txt
+[14.936s] writing entry points to athena_health_manager.egg-info/entry_points.txt
+[14.936s] writing requirements to athena_health_manager.egg-info/requires.txt
+[14.940s] writing top-level names to athena_health_manager.egg-info/top_level.txt
+[14.940s] writing manifest file 'athena_health_manager.egg-info/SOURCES.txt'
+[15.252s] reading manifest file 'athena_health_manager.egg-info/SOURCES.txt'
+[15.255s] writing manifest file 'athena_health_manager.egg-info/SOURCES.txt'
+[15.413s] running build_ext
+[15.413s] Creating /home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages/athena-health-manager.egg-link (link to .)
+[15.418s] Installing health_manager script to /home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/athena_health_manager
+[15.420s] 
+[15.421s] Installed /home/athena-uav/Athena/athena_ws/build/athena_health_manager
+[15.422s] running symlink_data
+[15.424s] creating /home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/ament_index
+[15.425s] creating /home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/ament_index/resource_index
+[15.427s] creating /home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/ament_index/resource_index/packages
+[15.428s] symbolically linking /home/athena-uav/Athena/athena_ws/build/athena_health_manager/resource/athena_health_manager -> /home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/ament_index/resource_index/packages
+[15.430s] symbolically linking /home/athena-uav/Athena/athena_ws/build/athena_health_manager/package.xml -> /home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager
+[15.758s] Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_health_manager' returned '0': AMENT_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_health_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_health_manager/build --no-deps symlink_data

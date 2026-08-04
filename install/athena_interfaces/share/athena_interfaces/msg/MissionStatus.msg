@@ -1,1 +1,1 @@
-/home/athena-uav/Athena/Athena-UAV/src/athena_interfaces/msg/MissionStatus.msg
+/home/athena-uav/Athena/athena_ws/src/athena_interfaces/msg/MissionStatus.msg

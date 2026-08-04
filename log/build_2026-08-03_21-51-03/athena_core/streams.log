@@ -1,0 +1,24 @@
+[10.825s] Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_core': AMENT_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_core/build --no-deps symlink_data
+[12.849s] running develop
+[14.832s] running egg_info
+[14.833s] creating athena_core.egg-info
+[15.011s] writing athena_core.egg-info/PKG-INFO
+[15.012s] writing dependency_links to athena_core.egg-info/dependency_links.txt
+[15.014s] writing entry points to athena_core.egg-info/entry_points.txt
+[15.015s] writing requirements to athena_core.egg-info/requires.txt
+[15.016s] writing top-level names to athena_core.egg-info/top_level.txt
+[15.017s] writing manifest file 'athena_core.egg-info/SOURCES.txt'
+[15.328s] reading manifest file 'athena_core.egg-info/SOURCES.txt'
+[15.331s] writing manifest file 'athena_core.egg-info/SOURCES.txt'
+[15.504s] running build_ext
+[15.508s] Creating /home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages/athena-core.egg-link (link to .)
+[15.511s] Installing athena_manager script to /home/athena-uav/Athena/athena_ws/install/athena_core/lib/athena_core
+[15.514s] 
+[15.517s] Installed /home/athena-uav/Athena/athena_ws/build/athena_core
+[15.520s] running symlink_data
+[15.522s] creating /home/athena-uav/Athena/athena_ws/install/athena_core/share/ament_index
+[15.524s] creating /home/athena-uav/Athena/athena_ws/install/athena_core/share/ament_index/resource_index
+[15.525s] creating /home/athena-uav/Athena/athena_ws/install/athena_core/share/ament_index/resource_index/packages
+[15.528s] symbolically linking /home/athena-uav/Athena/athena_ws/build/athena_core/resource/athena_core -> /home/athena-uav/Athena/athena_ws/install/athena_core/share/ament_index/resource_index/packages
+[15.530s] symbolically linking /home/athena-uav/Athena/athena_ws/build/athena_core/package.xml -> /home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core
+[15.883s] Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_core' returned '0': AMENT_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_core/build --no-deps symlink_data

@@ -1,1 +1,1 @@
-/home/athena-uav/Athena/Athena-UAV/src/athena_interfaces/msg/SystemHealth.msg
+/home/athena-uav/Athena/athena_ws/src/athena_interfaces/msg/SystemHealth.msg

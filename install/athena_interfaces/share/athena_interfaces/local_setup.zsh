@@ -1,1 +1,1 @@
-/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/ament_cmake_environment_hooks/local_setup.zsh
+/home/athena-uav/Athena/athena_ws/build/athena_interfaces/ament_cmake_environment_hooks/local_setup.zsh

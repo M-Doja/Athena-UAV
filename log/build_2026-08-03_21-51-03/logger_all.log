@@ -1,0 +1,354 @@
+[1.629s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.629s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb3ae5880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb3c96720>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb3c96720>>)
+[1.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.973s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/athena-uav/Athena/athena_ws'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extension 'ignore'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extension 'ignore_ament_install'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extensions ['colcon_pkg']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extension 'colcon_pkg'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extensions ['colcon_meta']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extension 'colcon_meta'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extensions ['ros']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_bringup) by extension 'ros'
+[2.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/athena_bringup' with type 'ros.ament_python' and name 'athena_bringup'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extensions ['ignore', 'ignore_ament_install']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extension 'ignore'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extension 'ignore_ament_install'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extensions ['colcon_pkg']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extension 'colcon_pkg'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extensions ['colcon_meta']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extension 'colcon_meta'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_core) by extension 'ros'
+[2.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/athena_core' with type 'ros.ament_python' and name 'athena_core'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extensions ['ignore', 'ignore_ament_install']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extension 'ignore_ament_install'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extensions ['colcon_pkg']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extension 'colcon_pkg'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extensions ['colcon_meta']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extension 'colcon_meta'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extensions ['ros']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_health_manager) by extension 'ros'
+[2.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/athena_health_manager' with type 'ros.ament_python' and name 'athena_health_manager'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extension 'ignore'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extension 'ignore_ament_install'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extensions ['colcon_pkg']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extension 'colcon_pkg'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extensions ['colcon_meta']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extension 'colcon_meta'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extensions ['ros']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/athena_interfaces) by extension 'ros'
+[2.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/athena_interfaces' with type 'ros.ament_cmake' and name 'athena_interfaces'
+[2.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[2.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'cmake_target' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'athena_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.630s] DEBUG:colcon.colcon_core.verb:Building package 'athena_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/athena-uav/Athena/athena_ws/build/athena_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/athena-uav/Athena/athena_ws/install/athena_bringup', 'merge_install': False, 'path': '/home/athena-uav/Athena/athena_ws/src/athena_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'athena_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.632s] DEBUG:colcon.colcon_core.verb:Building package 'athena_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/athena-uav/Athena/athena_ws/build/athena_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces', 'merge_install': False, 'path': '/home/athena-uav/Athena/athena_ws/src/athena_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'cmake_args' from command line to 'None'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'cmake_target' from command line to 'None'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'cmake_clean_cache' from command line to 'False'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'cmake_clean_first' from command line to 'False'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'cmake_force_configure' from command line to 'False'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'ament_cmake_args' from command line to 'None'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'catkin_cmake_args' from command line to 'None'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'athena_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.634s] DEBUG:colcon.colcon_core.verb:Building package 'athena_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/athena-uav/Athena/athena_ws/build/athena_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/athena-uav/Athena/athena_ws/install/athena_core', 'merge_install': False, 'path': '/home/athena-uav/Athena/athena_ws/src/athena_core', 'symlink_install': True, 'test_result_base': None}
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'cmake_args' from command line to 'None'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'cmake_target' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'cmake_clean_first' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'cmake_force_configure' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'ament_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'athena_health_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.636s] DEBUG:colcon.colcon_core.verb:Building package 'athena_health_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/athena-uav/Athena/athena_ws/build/athena_health_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/athena-uav/Athena/athena_ws/install/athena_health_manager', 'merge_install': False, 'path': '/home/athena-uav/Athena/athena_ws/src/athena_health_manager', 'symlink_install': True, 'test_result_base': None}
+[2.637s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.640s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.641s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/athena-uav/Athena/athena_ws/src/athena_interfaces' with build type 'ament_cmake'
+[2.642s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/athena-uav/Athena/athena_ws/src/athena_interfaces'
+[2.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.698s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/athena-uav/Athena/athena_ws/src/athena_bringup' with build type 'ament_python'
+[2.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_bringup', 'ament_prefix_path')
+[2.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/hook/ament_prefix_path.ps1'
+[2.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/hook/ament_prefix_path.dsv'
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/hook/ament_prefix_path.sh'
+[2.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/athena-uav/Athena/athena_ws/src/athena_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athena-uav/Athena/athena_ws/install/athena_interfaces
+[3.997s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/athena-uav/Athena/athena_ws/src/athena_bringup'
+[3.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.147s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: saveopts, bdist_rpm, clean, bdist_egg, check, bdist, init_catalog, upload, build, install_scripts, install, alias, register, update_catalog, build_clib, compile_catalog, install_lib, build_ext, dist_info, rotate, symlink_data, sdist, install_data, build_py, egg_info, test, develop, easy_install, upload_docs, install_headers, build_scripts, bdist_wheel, bdist_dumb, extract_messages, setopt, editable_wheel, install_egg_info
+[12.633s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --dry-run, --install-layout, --always-copy, --verbose, --upgrade, --install-dir, --force-installation-into-system-dir, --quiet, --build-directory, --local-snapshots-ok, --uninstall, --record, --zip-ok, --no-deps, --index-url, --version, --help, --prefix, --optimize, --no-find-links, --script-dir, --exclude-scripts, --editable, --egg-path, --always-unzip, --multi-version, --allow-hosts, --find-links, --user, --no-user-cfg, --site-dirs
+[12.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_bringup/build --no-deps symlink_data
+[20.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_bringup', 'pythonpath_develop')
+[20.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/build/athena_bringup/share/athena_bringup/hook/pythonpath_develop.ps1'
+[20.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_bringup/build --no-deps symlink_data
+[20.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/build/athena_bringup/share/athena_bringup/hook/pythonpath_develop.dsv'
+[20.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/build/athena_bringup/share/athena_bringup/hook/pythonpath_develop.sh'
+[20.945s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_bringup' for CMake module files
+[20.949s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_bringup' for CMake config files
+[20.954s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib'
+[20.955s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_bringup/bin'
+[20.956s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/pkgconfig/athena_bringup.pc'
+[20.957s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages'
+[20.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_bringup', 'pythonpath')
+[20.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/hook/pythonpath.ps1'
+[20.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/hook/pythonpath.dsv'
+[20.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/hook/pythonpath.sh'
+[20.971s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_bringup/bin'
+[20.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(athena_bringup)
+[20.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/package.ps1'
+[20.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/package.dsv'
+[20.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/package.sh'
+[20.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/package.bash'
+[21.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/package.zsh'
+[21.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athena-uav/Athena/athena_ws/install/athena_bringup/share/colcon-core/packages/athena_bringup)
+[29.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/athena-uav/Athena/athena_ws/src/athena_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athena-uav/Athena/athena_ws/install/athena_interfaces
+[30.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/athena-uav/Athena/athena_ws/build/athena_interfaces -- -j4 -l4
+[97.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/athena-uav/Athena/athena_ws/build/athena_interfaces -- -j4 -l4
+[97.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/athena-uav/Athena/athena_ws/build/athena_interfaces
+[104.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(athena_interfaces)
+[104.784s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces' for CMake module files
+[104.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/athena-uav/Athena/athena_ws/build/athena_interfaces
+[104.791s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces' for CMake config files
+[104.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_interfaces', 'cmake_prefix_path')
+[104.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/cmake_prefix_path.ps1'
+[104.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/cmake_prefix_path.dsv'
+[104.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/cmake_prefix_path.sh'
+[104.826s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib'
+[104.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_interfaces', 'ld_library_path_lib')
+[104.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/ld_library_path_lib.ps1'
+[104.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/ld_library_path_lib.dsv'
+[104.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/ld_library_path_lib.sh'
+[104.834s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/bin'
+[104.835s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/pkgconfig/athena_interfaces.pc'
+[104.836s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages'
+[104.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_interfaces', 'pythonpath')
+[104.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/pythonpath.ps1'
+[104.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/pythonpath.dsv'
+[104.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/pythonpath.sh'
+[104.844s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/bin'
+[104.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.ps1'
+[104.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.dsv'
+[104.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.sh'
+[104.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.bash'
+[104.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.zsh'
+[104.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/colcon-core/packages/athena_interfaces)
+[104.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(athena_interfaces)
+[104.871s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces' for CMake module files
+[104.876s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces' for CMake config files
+[104.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_interfaces', 'cmake_prefix_path')
+[104.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/cmake_prefix_path.ps1'
+[104.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/cmake_prefix_path.dsv'
+[104.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/cmake_prefix_path.sh'
+[104.891s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib'
+[104.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_interfaces', 'ld_library_path_lib')
+[104.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/ld_library_path_lib.ps1'
+[104.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/ld_library_path_lib.dsv'
+[104.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/ld_library_path_lib.sh'
+[104.898s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/bin'
+[104.899s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/pkgconfig/athena_interfaces.pc'
+[104.900s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages'
+[104.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_interfaces', 'pythonpath')
+[104.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/pythonpath.ps1'
+[104.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/pythonpath.dsv'
+[104.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/hook/pythonpath.sh'
+[104.912s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/bin'
+[104.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.ps1'
+[104.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.dsv'
+[104.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.sh'
+[104.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.bash'
+[104.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.zsh'
+[104.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/colcon-core/packages/athena_interfaces)
+[104.935s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/athena-uav/Athena/athena_ws/src/athena_core' with build type 'ament_python'
+[104.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_core', 'ament_prefix_path')
+[104.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/hook/ament_prefix_path.ps1'
+[104.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/hook/ament_prefix_path.dsv'
+[104.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/hook/ament_prefix_path.sh'
+[104.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[104.951s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[104.998s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/athena-uav/Athena/athena_ws/src/athena_health_manager' with build type 'ament_python'
+[104.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_health_manager', 'ament_prefix_path')
+[105.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/hook/ament_prefix_path.ps1'
+[105.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/hook/ament_prefix_path.dsv'
+[105.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/hook/ament_prefix_path.sh'
+[105.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[105.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[107.425s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/athena-uav/Athena/athena_ws/src/athena_core'
+[107.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[107.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[108.675s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/athena-uav/Athena/athena_ws/src/athena_health_manager'
+[108.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[108.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[113.644s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: saveopts, bdist_rpm, clean, bdist_egg, check, bdist, init_catalog, upload, build, install_scripts, install, alias, register, update_catalog, build_clib, compile_catalog, install_lib, build_ext, dist_info, rotate, symlink_data, sdist, install_data, build_py, egg_info, test, develop, easy_install, upload_docs, install_headers, build_scripts, bdist_wheel, bdist_dumb, extract_messages, setopt, editable_wheel, install_egg_info
+[113.648s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: saveopts, bdist_rpm, clean, bdist_egg, check, bdist, init_catalog, upload, build, install_scripts, install, alias, register, update_catalog, build_clib, compile_catalog, install_lib, build_ext, dist_info, rotate, symlink_data, sdist, install_data, build_py, egg_info, test, develop, easy_install, upload_docs, install_headers, build_scripts, bdist_wheel, bdist_dumb, extract_messages, setopt, editable_wheel, install_egg_info
+[115.734s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --dry-run, --install-layout, --always-copy, --verbose, --upgrade, --install-dir, --force-installation-into-system-dir, --quiet, --build-directory, --local-snapshots-ok, --uninstall, --record, --zip-ok, --no-deps, --index-url, --version, --help, --prefix, --optimize, --no-find-links, --script-dir, --exclude-scripts, --editable, --egg-path, --always-unzip, --multi-version, --allow-hosts, --find-links, --user, --no-user-cfg, --site-dirs
+[115.751s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --dry-run, --install-layout, --always-copy, --verbose, --upgrade, --install-dir, --force-installation-into-system-dir, --quiet, --build-directory, --local-snapshots-ok, --uninstall, --record, --zip-ok, --no-deps, --index-url, --version, --help, --prefix, --optimize, --no-find-links, --script-dir, --exclude-scripts, --editable, --egg-path, --always-unzip, --multi-version, --allow-hosts, --find-links, --user, --no-user-cfg, --site-dirs
+[115.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_health_manager': AMENT_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_health_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_health_manager/build --no-deps symlink_data
+[115.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_core': AMENT_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_core/build --no-deps symlink_data
+[120.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_health_manager', 'pythonpath_develop')
+[120.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/build/athena_health_manager/share/athena_health_manager/hook/pythonpath_develop.ps1'
+[120.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_health_manager' returned '0': AMENT_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_health_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_health_manager/build --no-deps symlink_data
+[120.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/build/athena_health_manager/share/athena_health_manager/hook/pythonpath_develop.dsv'
+[120.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/build/athena_health_manager/share/athena_health_manager/hook/pythonpath_develop.sh'
+[120.773s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_health_manager' for CMake module files
+[120.775s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_health_manager' for CMake config files
+[120.779s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib'
+[120.780s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/bin'
+[120.780s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/pkgconfig/athena_health_manager.pc'
+[120.781s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages'
+[120.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_health_manager', 'pythonpath')
+[120.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/hook/pythonpath.ps1'
+[120.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/hook/pythonpath.dsv'
+[120.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/hook/pythonpath.sh'
+[120.790s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/bin'
+[120.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(athena_health_manager)
+[120.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/package.ps1'
+[120.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/package.dsv'
+[120.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/package.sh'
+[120.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/package.bash'
+[120.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/athena_health_manager/package.zsh'
+[120.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athena-uav/Athena/athena_ws/install/athena_health_manager/share/colcon-core/packages/athena_health_manager)
+[120.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_core', 'pythonpath_develop')
+[120.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/build/athena_core/share/athena_core/hook/pythonpath_develop.ps1'
+[120.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_core' returned '0': AMENT_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_core/build --no-deps symlink_data
+[120.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/build/athena_core/share/athena_core/hook/pythonpath_develop.dsv'
+[120.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/build/athena_core/share/athena_core/hook/pythonpath_develop.sh'
+[120.831s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_core' for CMake module files
+[120.834s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_core' for CMake config files
+[120.838s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_core/lib'
+[120.838s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_core/bin'
+[120.839s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_core/lib/pkgconfig/athena_core.pc'
+[120.840s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages'
+[120.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('athena_core', 'pythonpath')
+[120.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/hook/pythonpath.ps1'
+[120.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/hook/pythonpath.dsv'
+[120.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/hook/pythonpath.sh'
+[120.855s] Level 1:colcon.colcon_core.environment:checking '/home/athena-uav/Athena/athena_ws/install/athena_core/bin'
+[120.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(athena_core)
+[120.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/package.ps1'
+[120.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/package.dsv'
+[120.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/package.sh'
+[120.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/package.bash'
+[120.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/athena-uav/Athena/athena_ws/install/athena_core/share/athena_core/package.zsh'
+[120.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athena-uav/Athena/athena_ws/install/athena_core/share/colcon-core/packages/athena_core)
+[120.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[120.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[120.877s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[120.880s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[121.098s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[121.099s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[121.099s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[121.590s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[121.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/athena-uav/Athena/athena_ws/install/local_setup.ps1'
+[121.607s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/athena-uav/Athena/athena_ws/install/_local_setup_util_ps1.py'
+[121.620s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/athena-uav/Athena/athena_ws/install/setup.ps1'
+[121.632s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/athena-uav/Athena/athena_ws/install/local_setup.sh'
+[121.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/athena-uav/Athena/athena_ws/install/_local_setup_util_sh.py'
+[121.640s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/athena-uav/Athena/athena_ws/install/setup.sh'
+[121.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/athena-uav/Athena/athena_ws/install/local_setup.bash'
+[121.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/athena-uav/Athena/athena_ws/install/setup.bash'
+[121.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/athena-uav/Athena/athena_ws/install/local_setup.zsh'
+[121.673s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/athena-uav/Athena/athena_ws/install/setup.zsh'

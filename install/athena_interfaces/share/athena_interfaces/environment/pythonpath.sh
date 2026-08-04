@@ -1,1 +1,1 @@
-/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/ament_cmake_environment_hooks/pythonpath.sh
+/home/athena-uav/Athena/athena_ws/build/athena_interfaces/ament_cmake_environment_hooks/pythonpath.sh

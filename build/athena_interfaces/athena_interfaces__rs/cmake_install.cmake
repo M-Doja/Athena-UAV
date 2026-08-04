@@ -1,8 +1,8 @@
-# Install script for directory: /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/athena_interfaces__rs
+# Install script for directory: /home/athena-uav/Athena/athena_ws/build/athena_interfaces/athena_interfaces__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/athena-uav/Athena/athena_ws/install/athena_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

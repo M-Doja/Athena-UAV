@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "athena_interfaces/msg/detail/mission_status__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "athena_interfaces/msg/detail/mission_status__functions.h"
 #include "athena_interfaces/msg/detail/mission_status__type_support.h"
+#include "athena_interfaces/msg/detail/mission_status__struct.h"
 
 #ifdef __cplusplus
 extern "C"

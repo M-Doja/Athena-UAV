@@ -1,0 +1,25 @@
+[9.985s] Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_bringup/build --no-deps symlink_data
+[15.617s] running develop
+[17.296s] running egg_info
+[17.296s] creating athena_bringup.egg-info
+[17.422s] writing athena_bringup.egg-info/PKG-INFO
+[17.425s] writing dependency_links to athena_bringup.egg-info/dependency_links.txt
+[17.426s] writing requirements to athena_bringup.egg-info/requires.txt
+[17.426s] writing top-level names to athena_bringup.egg-info/top_level.txt
+[17.427s] writing manifest file 'athena_bringup.egg-info/SOURCES.txt'
+[17.733s] reading manifest file 'athena_bringup.egg-info/SOURCES.txt'
+[17.736s] writing manifest file 'athena_bringup.egg-info/SOURCES.txt'
+[17.907s] running build_ext
+[17.917s] Creating /home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages/athena-bringup.egg-link (link to .)
+[17.920s] 
+[17.921s] Installed /home/athena-uav/Athena/athena_ws/build/athena_bringup
+[17.926s] running symlink_data
+[17.927s] creating /home/athena-uav/Athena/athena_ws/install/athena_bringup/share/ament_index
+[17.931s] creating /home/athena-uav/Athena/athena_ws/install/athena_bringup/share/ament_index/resource_index
+[17.931s] creating /home/athena-uav/Athena/athena_ws/install/athena_bringup/share/ament_index/resource_index/packages
+[17.932s] symbolically linking /home/athena-uav/Athena/athena_ws/build/athena_bringup/resource/athena_bringup -> /home/athena-uav/Athena/athena_ws/install/athena_bringup/share/ament_index/resource_index/packages
+[17.934s] symbolically linking /home/athena-uav/Athena/athena_ws/build/athena_bringup/package.xml -> /home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup
+[17.938s] creating /home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/launch
+[17.943s] symbolically linking /home/athena-uav/Athena/athena_ws/build/athena_bringup/launch/athena.launch.py -> /home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/launch
+[17.944s] creating /home/athena-uav/Athena/athena_ws/install/athena_bringup/share/athena_bringup/config
+[18.149s] Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_bringup/build --no-deps symlink_data

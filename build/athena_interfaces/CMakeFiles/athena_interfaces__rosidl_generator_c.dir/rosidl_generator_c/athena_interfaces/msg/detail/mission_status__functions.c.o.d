@@ -1,7 +1,7 @@
 CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__functions.c.o: \
- /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__functions.c \
+ /home/athena-uav/Athena/athena_ws/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__functions.c \
  /usr/include/stdc-predef.h \
- /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__functions.h \
+ /home/athena-uav/Athena/athena_ws/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__functions.h \
  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdbool.h \
  /usr/include/stdlib.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
@@ -66,8 +66,8 @@ CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_i
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__struct.h \
+ /home/athena-uav/Athena/athena_ws/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/athena-uav/Athena/athena_ws/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /usr/include/assert.h /usr/include/string.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
