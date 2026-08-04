@@ -1,0 +1,15 @@
+[7.783s] Invoking command in '/home/athena-uav/Athena/athena_ws/build/athena_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_bringup/build --no-deps symlink_data
+[9.959s] running develop
+[11.386s] running egg_info
+[11.519s] writing athena_bringup.egg-info/PKG-INFO
+[11.521s] writing dependency_links to athena_bringup.egg-info/dependency_links.txt
+[11.523s] writing requirements to athena_bringup.egg-info/requires.txt
+[11.524s] writing top-level names to athena_bringup.egg-info/top_level.txt
+[11.805s] reading manifest file 'athena_bringup.egg-info/SOURCES.txt'
+[11.808s] writing manifest file 'athena_bringup.egg-info/SOURCES.txt'
+[11.945s] running build_ext
+[11.946s] Creating /home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages/athena-bringup.egg-link (link to .)
+[11.949s] 
+[11.949s] Installed /home/athena-uav/Athena/athena_ws/build/athena_bringup
+[11.950s] running symlink_data
+[12.144s] Invoked command in '/home/athena-uav/Athena/athena_ws/build/athena_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athena-uav/Athena/athena_ws/build/athena_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/athena_ws/build/athena_bringup/build --no-deps symlink_data

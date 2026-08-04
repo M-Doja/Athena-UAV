@@ -6,19 +6,17 @@ echo "================================="
 echo " Athena-UAV Build System"
 echo "================================="
 
-WORKSPACE=~/Athena/athena_ws
+source ~/Athena/athena_ws/scripts/athena_env.sh
 
-echo "[1/4] Sourcing ROS 2 Jazzy..."
-source /opt/ros/jazzy/setup.bash
+echo "[1/3] Entering workspace..."
 
-echo "[2/4] Entering workspace..."
-cd $WORKSPACE
+cd $ATHENA_WS
 
-echo "[3/4] Building Athena..."
+echo "[2/3] Building Athena..."
+
 colcon build --symlink-install
 
-echo "[4/4] Sourcing workspace..."
-source install/setup.bash
+echo "[3/3] Build complete"
 
 echo "================================="
 echo " Athena-UAV Build Complete"

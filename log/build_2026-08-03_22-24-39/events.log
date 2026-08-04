@@ -1,0 +1,399 @@
+[0.000000] (-) TimerEvent: {}
+[0.000926] (athena_bringup) JobQueued: {'identifier': 'athena_bringup', 'dependencies': OrderedDict()}
+[0.001056] (athena_interfaces) JobQueued: {'identifier': 'athena_interfaces', 'dependencies': OrderedDict()}
+[0.001128] (athena_core) JobQueued: {'identifier': 'athena_core', 'dependencies': OrderedDict({'athena_interfaces': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces'})}
+[0.001207] (athena_health_manager) JobQueued: {'identifier': 'athena_health_manager', 'dependencies': OrderedDict({'athena_interfaces': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces'})}
+[0.001984] (athena_interfaces) JobStarted: {'identifier': 'athena_interfaces'}
+[0.048709] (athena_bringup) JobStarted: {'identifier': 'athena_bringup'}
+[0.086267] (athena_interfaces) JobProgress: {'identifier': 'athena_interfaces', 'progress': 'cmake'}
+[0.088905] (athena_interfaces) JobProgress: {'identifier': 'athena_interfaces', 'progress': 'build'}
+[0.092114] (athena_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/athena-uav/Athena/athena_ws/build/athena_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/athena-uav/Athena/athena_ws/build/athena_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'athena-uav', 'SSH_CLIENT': '192.168.50.119 60210 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/athena-uav', 'OLDPWD': '/home/athena-uav/Athena/athena_ws/scripts', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'athena-uav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '37', 'ATHENA_ROOT': '/home/athena-uav/Athena', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ATHENA_WS': '/home/athena-uav/Athena/athena_ws', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/home/athena-uav/Athena/athena_ws/install/athena_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/athena-uav/Athena/athena_ws/build/athena_interfaces', 'SSH_CONNECTION': '192.168.50.119 60210 192.168.50.242 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athena-uav/Athena/athena_ws/build/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_bringup:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/athena-uav/Athena/athena_ws/install/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_bringup:/opt/ros/jazzy'}), 'shell': False}
+[0.104492] (-) TimerEvent: {}
+[0.205823] (-) TimerEvent: {}
+[0.306482] (-) TimerEvent: {}
+[0.407116] (-) TimerEvent: {}
+[0.507889] (-) TimerEvent: {}
+[0.609556] (-) TimerEvent: {}
+[0.710269] (-) TimerEvent: {}
+[0.721642] (athena_interfaces) StdoutLine: {'line': b'[  1%] Built target athena_interfaces__rosidl_generator_type_description\n'}
+[0.722958] (athena_interfaces) StdoutLine: {'line': b'[  3%] Built target athena_interfaces__rs\n'}
+[0.769645] (athena_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_athena_interfaces\n'}
+[0.810506] (-) TimerEvent: {}
+[0.859204] (athena_interfaces) StdoutLine: {'line': b'[  4%] Built target athena_interfaces__cpp\n'}
+[0.910768] (-) TimerEvent: {}
+[0.934179] (athena_interfaces) StdoutLine: {'line': b'[ 26%] Built target athena_interfaces__rosidl_generator_c\n'}
+[1.013566] (-) TimerEvent: {}
+[1.114325] (-) TimerEvent: {}
+[1.151691] (athena_interfaces) StdoutLine: {'line': b'[ 35%] Built target athena_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.186432] (athena_interfaces) StdoutLine: {'line': b'[ 44%] Built target athena_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.200756] (athena_interfaces) StdoutLine: {'line': b'[ 53%] Built target athena_interfaces__rosidl_typesupport_cpp\n'}
+[1.214539] (-) TimerEvent: {}
+[1.319470] (-) TimerEvent: {}
+[1.397295] (athena_interfaces) StdoutLine: {'line': b'[ 63%] Built target athena_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.400060] (athena_interfaces) StdoutLine: {'line': b'[ 81%] Built target athena_interfaces__rosidl_typesupport_c\n'}
+[1.406726] (athena_interfaces) StdoutLine: {'line': b'[ 81%] Built target athena_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.420590] (-) TimerEvent: {}
+[1.524243] (-) TimerEvent: {}
+[1.565730] (athena_interfaces) StdoutLine: {'line': b'[ 81%] Built target athena_interfaces\n'}
+[1.624488] (-) TimerEvent: {}
+[1.700157] (athena_interfaces) StdoutLine: {'line': b'[ 83%] Built target athena_interfaces__py\n'}
+[1.724672] (-) TimerEvent: {}
+[1.825618] (-) TimerEvent: {}
+[1.884609] (athena_interfaces) StdoutLine: {'line': b'[ 90%] Built target athena_interfaces__rosidl_generator_py\n'}
+[1.927793] (-) TimerEvent: {}
+[2.028555] (-) TimerEvent: {}
+[2.064427] (athena_interfaces) StdoutLine: {'line': b'[ 93%] Built target athena_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[2.091633] (athena_interfaces) StdoutLine: {'line': b'[ 96%] Built target athena_interfaces_s__rosidl_typesupport_c\n'}
+[2.128789] (-) TimerEvent: {}
+[2.132345] (athena_interfaces) StdoutLine: {'line': b'[100%] Built target athena_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[2.228952] (-) TimerEvent: {}
+[2.260564] (athena_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.329102] (-) TimerEvent: {}
+[2.357089] (athena_interfaces) StdoutLine: {'line': b'writing athena_interfaces.egg-info/PKG-INFO\n'}
+[2.358224] (athena_interfaces) StdoutLine: {'line': b'writing dependency_links to athena_interfaces.egg-info/dependency_links.txt\n'}
+[2.359578] (athena_interfaces) StdoutLine: {'line': b'writing top-level names to athena_interfaces.egg-info/top_level.txt\n'}
+[2.429263] (-) TimerEvent: {}
+[2.529888] (-) TimerEvent: {}
+[2.630967] (-) TimerEvent: {}
+[2.644625] (athena_interfaces) StdoutLine: {'line': b"reading manifest file 'athena_interfaces.egg-info/SOURCES.txt'\n"}
+[2.647264] (athena_interfaces) StdoutLine: {'line': b"writing manifest file 'athena_interfaces.egg-info/SOURCES.txt'\n"}
+[2.731186] (-) TimerEvent: {}
+[2.803891] (athena_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_athena_interfaces_egg\n'}
+[2.831352] (-) TimerEvent: {}
+[2.868287] (athena_interfaces) CommandEnded: {'returncode': 0}
+[2.871029] (athena_interfaces) JobProgress: {'identifier': 'athena_interfaces', 'progress': 'install'}
+[2.925544] (athena_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/athena-uav/Athena/athena_ws/build/athena_interfaces'], 'cwd': '/home/athena-uav/Athena/athena_ws/build/athena_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'athena-uav', 'SSH_CLIENT': '192.168.50.119 60210 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/athena-uav', 'OLDPWD': '/home/athena-uav/Athena/athena_ws/scripts', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'athena-uav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '37', 'ATHENA_ROOT': '/home/athena-uav/Athena', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ATHENA_WS': '/home/athena-uav/Athena/athena_ws', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/home/athena-uav/Athena/athena_ws/install/athena_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/athena-uav/Athena/athena_ws/build/athena_interfaces', 'SSH_CONNECTION': '192.168.50.119 60210 192.168.50.242 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athena-uav/Athena/athena_ws/build/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_bringup:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/athena-uav/Athena/athena_ws/install/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_bringup:/opt/ros/jazzy'}), 'shell': False}
+[2.931557] (-) TimerEvent: {}
+[2.971813] (athena_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.974106] (athena_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.975998] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/ament_index/resource_index/rosidl_interfaces/athena_interfaces\n'}
+[2.977291] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/SystemHealth.json\n'}
+[2.978582] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/SystemStatus.json\n'}
+[2.979865] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/VehicleState.json\n'}
+[2.981171] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/MissionStatus.json\n'}
+[2.988105] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__functions.h\n'}
+[2.989365] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__struct.h\n'}
+[2.990709] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__type_support.h\n'}
+[2.991987] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__functions.h\n'}
+[2.993232] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__struct.h\n'}
+[2.994508] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__type_support.h\n'}
+[2.995765] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__functions.h\n'}
+[2.997142] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__struct.h\n'}
+[2.998422] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__type_support.h\n'}
+[2.999754] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__functions.h\n'}
+[3.000915] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__struct.h\n'}
+[3.002048] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__type_support.h\n'}
+[3.003102] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/mission_status.h\n'}
+[3.004167] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.005210] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/system_health.h\n'}
+[3.006260] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/system_status.h\n'}
+[3.007349] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/vehicle_state.h\n'}
+[3.008562] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/environment/library_path.sh\n'}
+[3.009736] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/environment/library_path.dsv\n'}
+[3.014262] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.015539] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__rosidl_typesupport_fastrtps_c.h\n'}
+[3.016658] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.017855] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_c.h\n'}
+[3.018944] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.022215] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_c.h\n'}
+[3.023375] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__rosidl_typesupport_introspection_c.h\n'}
+[3.024622] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[3.025821] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_introspection_c.h\n'}
+[3.026918] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.031004] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__builder.hpp\n'}
+[3.031540] (-) TimerEvent: {}
+[3.032261] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__struct.hpp\n'}
+[3.033418] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__traits.hpp\n'}
+[3.034609] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__type_support.hpp\n'}
+[3.035746] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__builder.hpp\n'}
+[3.036905] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__struct.hpp\n'}
+[3.038043] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__traits.hpp\n'}
+[3.039239] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__type_support.hpp\n'}
+[3.040361] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__builder.hpp\n'}
+[3.041514] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__struct.hpp\n'}
+[3.042643] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__traits.hpp\n'}
+[3.043785] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[3.044927] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__builder.hpp\n'}
+[3.046060] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__struct.hpp\n'}
+[3.047183] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__traits.hpp\n'}
+[3.048307] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__type_support.hpp\n'}
+[3.049364] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/mission_status.hpp\n'}
+[3.050447] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.051482] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/system_health.hpp\n'}
+[3.052530] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/system_status.hpp\n'}
+[3.053575] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/vehicle_state.hpp\n'}
+[3.058370] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.059561] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.060785] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.061958] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.063050] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.066159] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.067324] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.068561] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.069766] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.071005] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/environment/pythonpath.sh\n'}
+[3.072150] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/environment/pythonpath.dsv\n'}
+[3.074505] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[3.075521] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[3.076616] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[3.077705] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[3.083862] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/__init__.py\n'}
+[3.084832] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.085868] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.086960] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.088082] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_c.so\n'}
+[3.089116] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.090135] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[3.091209] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/__init__.py\n'}
+[3.092240] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_mission_status.py\n'}
+[3.093320] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_mission_status_s.c\n'}
+[3.094415] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_health.py\n'}
+[3.095490] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_health_s.c\n'}
+[3.096576] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_status.py\n'}
+[3.097702] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_status_s.c\n'}
+[3.098779] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_vehicle_state.py\n'}
+[3.099832] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_vehicle_state_s.c\n'}
+[3.101663] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.103395] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[3.105071] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_c.so\n'}
+[3.106473] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/ament_index/resource_index/rust_packages/athena_interfaces\n'}
+[3.109068] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/rust/Cargo.toml\n'}
+[3.110071] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/rust/build.rs\n'}
+[3.111150] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/rust/src/lib.rs\n'}
+[3.112200] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/rust/src/msg.rs\n'}
+[3.113397] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/rust/src/msg/rmw.rs\n'}
+[3.114688] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/SystemHealth.idl\n'}
+[3.115893] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/SystemStatus.idl\n'}
+[3.117081] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/VehicleState.idl\n'}
+[3.118341] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/MissionStatus.idl\n'}
+[3.119503] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/SystemHealth.msg\n'}
+[3.120634] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/SystemStatus.msg\n'}
+[3.121738] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/VehicleState.msg\n'}
+[3.122880] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/msg/MissionStatus.msg\n'}
+[3.124261] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/ament_index/resource_index/package_run_dependencies/athena_interfaces\n'}
+[3.125708] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/ament_index/resource_index/parent_prefix_path/athena_interfaces\n'}
+[3.126872] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/environment/ament_prefix_path.sh\n'}
+[3.128073] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.129193] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/environment/path.sh\n'}
+[3.130356] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/environment/path.dsv\n'}
+[3.131490] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/local_setup.bash\n'}
+[3.131979] (-) TimerEvent: {}
+[3.132731] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/local_setup.sh\n'}
+[3.133843] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/local_setup.zsh\n'}
+[3.135002] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/local_setup.dsv\n'}
+[3.135745] (athena_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.dsv\n'}
+[3.187747] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/ament_index/resource_index/packages/athena_interfaces\n'}
+[3.188967] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.190193] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.191681] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.193152] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.194639] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.195941] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.197488] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.198962] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[3.200442] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfacesConfig.cmake\n'}
+[3.201693] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfacesConfig-version.cmake\n'}
+[3.202899] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/package.xml\n'}
+[3.204483] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/libathena_interfaces__rosidl_generator_c.so\n'}
+[3.206894] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.210681] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.211543] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_c.so\n'}
+[3.213633] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.216075] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.218324] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.232183] (-) TimerEvent: {}
+[3.333035] (-) TimerEvent: {}
+[3.418879] (athena_interfaces) StdoutLine: {'line': b"Listing '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces'...\n"}
+[3.420068] (athena_interfaces) StdoutLine: {'line': b"Listing '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg'...\n"}
+[3.433234] (-) TimerEvent: {}
+[3.453076] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/libathena_interfaces__rosidl_generator_py.so\n'}
+[3.455086] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.455858] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.456670] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.457822] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.458494] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.459172] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.461157] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.461805] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.462684] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.463450] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.464202] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.464965] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.465763] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.466785] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.467613] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.468499] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.469169] (athena_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athena-uav/Athena/athena_ws/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.477776] (athena_interfaces) CommandEnded: {'returncode': 0}
+[3.533420] (-) TimerEvent: {}
+[3.625609] (athena_interfaces) JobEnded: {'identifier': 'athena_interfaces', 'rc': 0}
+[3.629784] (athena_core) JobStarted: {'identifier': 'athena_core'}
+[3.633852] (-) TimerEvent: {}
+[3.657690] (athena_health_manager) JobStarted: {'identifier': 'athena_health_manager'}
+[3.734048] (-) TimerEvent: {}
+[3.834658] (-) TimerEvent: {}
+[3.935246] (-) TimerEvent: {}
+[4.035904] (-) TimerEvent: {}
+[4.136539] (-) TimerEvent: {}
+[4.237099] (-) TimerEvent: {}
+[4.337744] (-) TimerEvent: {}
+[4.438323] (-) TimerEvent: {}
+[4.539126] (-) TimerEvent: {}
+[4.639858] (-) TimerEvent: {}
+[4.741205] (-) TimerEvent: {}
+[4.842018] (-) TimerEvent: {}
+[4.942690] (-) TimerEvent: {}
+[5.043286] (-) TimerEvent: {}
+[5.143922] (-) TimerEvent: {}
+[5.244517] (-) TimerEvent: {}
+[5.345123] (-) TimerEvent: {}
+[5.445909] (-) TimerEvent: {}
+[5.546875] (-) TimerEvent: {}
+[5.647605] (-) TimerEvent: {}
+[5.748142] (-) TimerEvent: {}
+[5.848843] (-) TimerEvent: {}
+[5.949790] (-) TimerEvent: {}
+[6.051572] (-) TimerEvent: {}
+[6.152545] (-) TimerEvent: {}
+[6.253243] (-) TimerEvent: {}
+[6.354122] (-) TimerEvent: {}
+[6.455986] (-) TimerEvent: {}
+[6.557459] (-) TimerEvent: {}
+[6.658232] (-) TimerEvent: {}
+[6.759497] (-) TimerEvent: {}
+[6.860317] (-) TimerEvent: {}
+[6.961544] (-) TimerEvent: {}
+[7.062324] (-) TimerEvent: {}
+[7.163591] (-) TimerEvent: {}
+[7.264339] (-) TimerEvent: {}
+[7.365541] (-) TimerEvent: {}
+[7.466184] (-) TimerEvent: {}
+[7.567298] (-) TimerEvent: {}
+[7.668554] (-) TimerEvent: {}
+[7.769850] (-) TimerEvent: {}
+[7.830920] (athena_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/athena-uav/Athena/athena_ws/build/athena_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/athena-uav/Athena/athena_ws/build/athena_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'athena-uav', 'SSH_CLIENT': '192.168.50.119 60210 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/athena-uav', 'OLDPWD': '/home/athena-uav/Athena/athena_ws/scripts', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'athena-uav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '37', 'ATHENA_ROOT': '/home/athena-uav/Athena', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ATHENA_WS': '/home/athena-uav/Athena/athena_ws', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/home/athena-uav/Athena/athena_ws/install/athena_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/athena-uav/Athena/athena_ws/build/athena_bringup', 'SSH_CONNECTION': '192.168.50.119 60210 192.168.50.242 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athena-uav/Athena/athena_ws/build/athena_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_bringup:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.870021] (-) TimerEvent: {}
+[7.971023] (-) TimerEvent: {}
+[8.072202] (-) TimerEvent: {}
+[8.173543] (-) TimerEvent: {}
+[8.274985] (-) TimerEvent: {}
+[8.376456] (-) TimerEvent: {}
+[8.477107] (-) TimerEvent: {}
+[8.578284] (-) TimerEvent: {}
+[8.679083] (-) TimerEvent: {}
+[8.780238] (-) TimerEvent: {}
+[8.880915] (-) TimerEvent: {}
+[8.981599] (-) TimerEvent: {}
+[9.082658] (-) TimerEvent: {}
+[9.183507] (-) TimerEvent: {}
+[9.285447] (-) TimerEvent: {}
+[9.387244] (-) TimerEvent: {}
+[9.488443] (-) TimerEvent: {}
+[9.589708] (-) TimerEvent: {}
+[9.691044] (-) TimerEvent: {}
+[9.791792] (-) TimerEvent: {}
+[9.893089] (-) TimerEvent: {}
+[9.996610] (-) TimerEvent: {}
+[10.008501] (athena_bringup) StdoutLine: {'line': b'running develop\n'}
+[10.096780] (-) TimerEvent: {}
+[10.197564] (-) TimerEvent: {}
+[10.299211] (-) TimerEvent: {}
+[10.400438] (-) TimerEvent: {}
+[10.501101] (-) TimerEvent: {}
+[10.602312] (-) TimerEvent: {}
+[10.703064] (-) TimerEvent: {}
+[10.804230] (-) TimerEvent: {}
+[10.905022] (-) TimerEvent: {}
+[11.005676] (-) TimerEvent: {}
+[11.106828] (-) TimerEvent: {}
+[11.207756] (-) TimerEvent: {}
+[11.309051] (-) TimerEvent: {}
+[11.371226] (athena_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/athena-uav/Athena/athena_ws/build/athena_core/build', '--no-deps', 'symlink_data'], 'cwd': '/home/athena-uav/Athena/athena_ws/build/athena_core', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'athena-uav', 'SSH_CLIENT': '192.168.50.119 60210 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/athena-uav', 'OLDPWD': '/home/athena-uav/Athena/athena_ws/scripts', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'athena-uav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '37', 'ATHENA_ROOT': '/home/athena-uav/Athena', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ATHENA_WS': '/home/athena-uav/Athena/athena_ws', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/home/athena-uav/Athena/athena_ws/install/athena_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/athena-uav/Athena/athena_ws/build/athena_core', 'SSH_CONNECTION': '192.168.50.119 60210 192.168.50.242 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athena-uav/Athena/athena_ws/build/athena_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_bringup:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[11.413030] (-) TimerEvent: {}
+[11.435334] (athena_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[11.443525] (athena_health_manager) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/athena-uav/Athena/athena_ws/build/athena_health_manager/build', '--no-deps', 'symlink_data'], 'cwd': '/home/athena-uav/Athena/athena_ws/build/athena_health_manager', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'athena-uav', 'SSH_CLIENT': '192.168.50.119 60210 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/athena-uav', 'OLDPWD': '/home/athena-uav/Athena/athena_ws/scripts', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'athena-uav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '37', 'ATHENA_ROOT': '/home/athena-uav/Athena', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ATHENA_WS': '/home/athena-uav/Athena/athena_ws', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/home/athena-uav/Athena/athena_ws/install/athena_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/athena-uav/Athena/athena_ws/build/athena_health_manager', 'SSH_CONNECTION': '192.168.50.119 60210 192.168.50.242 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athena-uav/Athena/athena_ws/build/athena_health_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/install/athena_interfaces/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_health_manager:/home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_core:/home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages:/home/athena-uav/Athena/athena_ws/build/athena_bringup:/home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/athena-uav/Athena/athena_ws/install/athena_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[11.513220] (-) TimerEvent: {}
+[11.568955] (athena_bringup) StdoutLine: {'line': b'writing athena_bringup.egg-info/PKG-INFO\n'}
+[11.570361] (athena_bringup) StdoutLine: {'line': b'writing dependency_links to athena_bringup.egg-info/dependency_links.txt\n'}
+[11.572533] (athena_bringup) StdoutLine: {'line': b'writing requirements to athena_bringup.egg-info/requires.txt\n'}
+[11.573618] (athena_bringup) StdoutLine: {'line': b'writing top-level names to athena_bringup.egg-info/top_level.txt\n'}
+[11.613454] (-) TimerEvent: {}
+[11.714114] (-) TimerEvent: {}
+[11.815422] (-) TimerEvent: {}
+[11.854213] (athena_bringup) StdoutLine: {'line': b"reading manifest file 'athena_bringup.egg-info/SOURCES.txt'\n"}
+[11.857539] (athena_bringup) StdoutLine: {'line': b"writing manifest file 'athena_bringup.egg-info/SOURCES.txt'\n"}
+[11.915582] (-) TimerEvent: {}
+[11.994300] (athena_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[11.995305] (athena_bringup) StdoutLine: {'line': b'Creating /home/athena-uav/Athena/athena_ws/install/athena_bringup/lib/python3.12/site-packages/athena-bringup.egg-link (link to .)\n'}
+[11.998345] (athena_bringup) StdoutLine: {'line': b'\n'}
+[11.999030] (athena_bringup) StdoutLine: {'line': b'Installed /home/athena-uav/Athena/athena_ws/build/athena_bringup\n'}
+[11.999831] (athena_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[12.015867] (-) TimerEvent: {}
+[12.120613] (-) TimerEvent: {}
+[12.193113] (athena_bringup) CommandEnded: {'returncode': 0}
+[12.221170] (-) TimerEvent: {}
+[12.234735] (athena_bringup) JobEnded: {'identifier': 'athena_bringup', 'rc': 0}
+[12.321331] (-) TimerEvent: {}
+[12.421985] (-) TimerEvent: {}
+[12.522927] (-) TimerEvent: {}
+[12.623517] (-) TimerEvent: {}
+[12.724086] (-) TimerEvent: {}
+[12.824688] (-) TimerEvent: {}
+[12.925262] (-) TimerEvent: {}
+[13.025866] (-) TimerEvent: {}
+[13.126546] (-) TimerEvent: {}
+[13.218209] (athena_core) StdoutLine: {'line': b'running develop\n'}
+[13.226743] (-) TimerEvent: {}
+[13.270215] (athena_health_manager) StdoutLine: {'line': b'running develop\n'}
+[13.326902] (-) TimerEvent: {}
+[13.427489] (-) TimerEvent: {}
+[13.528090] (-) TimerEvent: {}
+[13.628701] (-) TimerEvent: {}
+[13.729275] (-) TimerEvent: {}
+[13.829881] (-) TimerEvent: {}
+[13.930480] (-) TimerEvent: {}
+[14.031041] (-) TimerEvent: {}
+[14.131672] (-) TimerEvent: {}
+[14.232297] (-) TimerEvent: {}
+[14.295184] (athena_core) StdoutLine: {'line': b'running egg_info\n'}
+[14.332492] (-) TimerEvent: {}
+[14.354346] (athena_health_manager) StdoutLine: {'line': b'running egg_info\n'}
+[14.390002] (athena_core) StdoutLine: {'line': b'writing athena_core.egg-info/PKG-INFO\n'}
+[14.391218] (athena_core) StdoutLine: {'line': b'writing dependency_links to athena_core.egg-info/dependency_links.txt\n'}
+[14.392436] (athena_core) StdoutLine: {'line': b'writing entry points to athena_core.egg-info/entry_points.txt\n'}
+[14.393292] (athena_core) StdoutLine: {'line': b'writing requirements to athena_core.egg-info/requires.txt\n'}
+[14.394162] (athena_core) StdoutLine: {'line': b'writing top-level names to athena_core.egg-info/top_level.txt\n'}
+[14.432654] (-) TimerEvent: {}
+[14.447611] (athena_health_manager) StdoutLine: {'line': b'writing athena_health_manager.egg-info/PKG-INFO\n'}
+[14.448781] (athena_health_manager) StdoutLine: {'line': b'writing dependency_links to athena_health_manager.egg-info/dependency_links.txt\n'}
+[14.450729] (athena_health_manager) StdoutLine: {'line': b'writing entry points to athena_health_manager.egg-info/entry_points.txt\n'}
+[14.451637] (athena_health_manager) StdoutLine: {'line': b'writing requirements to athena_health_manager.egg-info/requires.txt\n'}
+[14.452373] (athena_health_manager) StdoutLine: {'line': b'writing top-level names to athena_health_manager.egg-info/top_level.txt\n'}
+[14.532821] (-) TimerEvent: {}
+[14.583852] (athena_core) StdoutLine: {'line': b"reading manifest file 'athena_core.egg-info/SOURCES.txt'\n"}
+[14.586978] (athena_core) StdoutLine: {'line': b"writing manifest file 'athena_core.egg-info/SOURCES.txt'\n"}
+[14.632987] (-) TimerEvent: {}
+[14.642703] (athena_health_manager) StdoutLine: {'line': b"reading manifest file 'athena_health_manager.egg-info/SOURCES.txt'\n"}
+[14.645874] (athena_health_manager) StdoutLine: {'line': b"writing manifest file 'athena_health_manager.egg-info/SOURCES.txt'\n"}
+[14.687719] (athena_core) StdoutLine: {'line': b'running build_ext\n'}
+[14.688511] (athena_core) StdoutLine: {'line': b'Creating /home/athena-uav/Athena/athena_ws/install/athena_core/lib/python3.12/site-packages/athena-core.egg-link (link to .)\n'}
+[14.691375] (athena_core) StdoutLine: {'line': b'Installing athena_manager script to /home/athena-uav/Athena/athena_ws/install/athena_core/lib/athena_core\n'}
+[14.692809] (athena_core) StdoutLine: {'line': b'\n'}
+[14.693505] (athena_core) StdoutLine: {'line': b'Installed /home/athena-uav/Athena/athena_ws/build/athena_core\n'}
+[14.693967] (athena_core) StdoutLine: {'line': b'running symlink_data\n'}
+[14.733305] (-) TimerEvent: {}
+[14.816660] (athena_health_manager) StdoutLine: {'line': b'running build_ext\n'}
+[14.817845] (athena_health_manager) StdoutLine: {'line': b'Creating /home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/python3.12/site-packages/athena-health-manager.egg-link (link to .)\n'}
+[14.822303] (athena_health_manager) StdoutLine: {'line': b'Installing health_manager script to /home/athena-uav/Athena/athena_ws/install/athena_health_manager/lib/athena_health_manager\n'}
+[14.824304] (athena_health_manager) StdoutLine: {'line': b'\n'}
+[14.825155] (athena_health_manager) StdoutLine: {'line': b'Installed /home/athena-uav/Athena/athena_ws/build/athena_health_manager\n'}
+[14.826054] (athena_health_manager) StdoutLine: {'line': b'running symlink_data\n'}
+[14.833634] (-) TimerEvent: {}
+[14.874832] (athena_core) CommandEnded: {'returncode': 0}
+[14.933889] (-) TimerEvent: {}
+[14.990428] (athena_core) JobEnded: {'identifier': 'athena_core', 'rc': 0}
+[14.997810] (athena_health_manager) CommandEnded: {'returncode': 0}
+[15.034127] (-) TimerEvent: {}
+[15.135102] (-) TimerEvent: {}
+[15.191630] (athena_health_manager) JobEnded: {'identifier': 'athena_health_manager', 'rc': 0}
+[15.226318] (-) EventReactorShutdown: {}

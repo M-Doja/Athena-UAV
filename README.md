@@ -1,88 +1,173 @@
- # Athena Reference Rover
- 
-Production-grade reference implementation for an Athena-compatible autonomous rover.
+# Athena-UAV
 
-## Purpose
+## Overview
 
-This repository provides the foundational rover stack that can:
+Athena-UAV is a modular autonomous robotics operating system built on ROS 2 Jazzy for the Raspberry Pi platform. It is designed to provide a reusable software foundation for autonomous ground and aerial vehicles.
 
-- Boot into a known operational lifecycle
-- Register and authenticate with Athena Mission Control
-- Report health and telemetry with standardized payloads
-- Transition safely into a `READY` state before mission execution
+The project emphasizes a layered architecture with clear separation between system management, hardware interfaces, autonomy, and AI capabilities. This allows Athena to support multiple vehicle types—including rovers and multirotor drones—while maintaining a common core.
 
-## Current Engineering Focus
+---
 
-Phase 1 targets the Rover Core Framework:
+## Current Development Platform
 
-1. Repository bootstrap and governance
-2. `athena_interface` package scaffold
-3. `rover_bringup` package scaffold
-4. Robot manifest and state machine baselines
-5. CI and contribution workflow setup
+**Hardware**
 
-## Repository Structure
+* Raspberry Pi 4B
+* Ubuntu 24.04 LTS
+* ARM64 (aarch64)
+
+**Software**
+
+* ROS 2 Jazzy
+* Python 3
+* Colcon Build System
+
+---
+
+## Current Project Structure
 
 ```text
-athena-reference-rover/
-├── .github/
+Athena/
+│
+├── athena_ws/
+│   ├── src/
+│   ├── build/
+│   ├── install/
+│   ├── log/
+│   └── scripts/
+│
 ├── docs/
-├── hardware/
-├── firmware/
-├── ros2_ws/
-│   └── src/
-├── launch/
 ├── config/
-├── maps/
-├── models/
 ├── logs/
-├── scripts/
-├── tests/
-├── docker/
-├── tools/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-└── CHANGELOG.md
+└── README.md
 ```
 
-## Quick Start
+---
 
-Prerequisites:
+## Current ROS Packages
 
-- ROS 2 (target distro to be finalized by project maintainers)
-- Python 3.10+
-- Colcon
+* athena_bringup
+* athena_core
+* athena_health_manager
+* athena_interfaces
 
-Build workspace:
+---
+
+## Current Features
+
+* Native Raspberry Pi development environment
+* ROS 2 workspace
+* Athena Core Manager
+* Health Manager
+* System status messaging
+* Launch system
+* Build automation
+* Workspace maintenance scripts
+
+---
+
+## Architecture
+
+```text
+Athena Core
+      │
+      ▼
+Health Manager
+      │
+      ▼
+Node Registry (planned)
+      │
+      ▼
+Hardware Abstraction Layer (planned)
+      │
+ ┌────┼────┐
+ │    │    │
+PX4 Sensors Cameras
+```
+
+Future layers will add mission management, navigation, AI perception, and operator interfaces.
+
+---
+
+## Build
 
 ```bash
-cd ros2_ws
-colcon build
-source install/setup.bash
+cd ~/Athena/athena_ws/scripts
+./build.sh
 ```
 
-Run core framework:
+---
+
+## Launch
 
 ```bash
-ros2 launch rover_bringup rover_core.launch.py
+cd ~/Athena/athena_ws/scripts
+./launch.sh
 ```
 
-Run status UI in another terminal:
+---
+
+## Clean
 
 ```bash
-python tools/device_status_ui/server.py
+cd ~/Athena/athena_ws/scripts
+./clean.sh
 ```
 
-Then open `http://localhost:8080`.
-
-## Documentation
-
-- Architecture docs: `docs/architecture/`
-- Developer process docs: `docs/developer/`
-- End-user docs: `docs/user/`
+---
 
 ## Status
 
-This repository is in early development and currently establishing production conventions before control and autonomy features are integrated.
-# Athena-Rover
+```bash
+cd ~/Athena/athena_ws/scripts
+./status.sh
+```
+
+---
+
+## Development Roadmap
+
+### Phase 1 — Core Infrastructure ✅
+
+* ROS 2 workspace
+* Athena Core
+* Health Manager
+* Interfaces
+* Bringup
+* Automation scripts
+
+### Phase 2 — System Management (In Progress)
+
+* Node Registry
+* Heartbeat monitoring
+* Diagnostics
+* Fault detection
+* Logging
+
+### Phase 3 — Hardware Abstraction Layer
+
+* PX4 integration
+* Sensor framework
+* Camera interfaces
+* Vehicle communications
+
+### Phase 4 — Rover Platform
+
+* Losi Lasernut integration
+* Mission execution
+* Telemetry
+* Safety systems
+
+### Phase 5 — Intelligent Autonomy
+
+* AI perception
+* Object detection
+* Voice interaction
+* Mission planning
+* Autonomous navigation
+
+---
+
+## Vision
+
+Athena-UAV is intended to become a scalable autonomous operating system capable of managing multiple robotic platforms through a common software architecture. By separating core services from hardware-specific implementations, the system is designed for long-term extensibility and maintainability.

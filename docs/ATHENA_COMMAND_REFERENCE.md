@@ -1,277 +1,231 @@
-# Athena OS Command Reference v0.1
+# ATHENA_COMMAND_REFERENCE.md
 
-## Environment Setup
+# Athena-UAV Command Reference
 
-### Start ROS 2 Environment
-
-```bash
-source /opt/ros/jazzy/setup.bash
-```
-
-### Start Athena Workspace Environment
-
-```bash
-source ~/athena_ws/install/setup.bash
-```
-
-Recommended startup sequence:
-
-```bash
-source /opt/ros/jazzy/setup.bash
-source ~/athena_ws/install/setup.bash
-```
+**Version:** 0.4.1
+**Platform:** Raspberry Pi 4B
+**Operating System:** Ubuntu 24.04 LTS
+**ROS Distribution:** Jazzy
 
 ---
 
-# Workspace Navigation
+# Workspace
 
-## Enter Athena Workspace
+Athena workspace location:
 
-```bash
-cd ~/athena_ws
+```text
+~/Athena/athena_ws
 ```
 
-## Enter Source Directory
+Scripts:
 
-```bash
-cd ~/athena_ws/src
-```
-
-## View Workspace Packages
-
-```bash
-ls ~/athena_ws/src
+```text
+~/Athena/athena_ws/scripts
 ```
 
 ---
 
 # Building Athena
 
-## Standard Build
+Build the complete workspace:
 
 ```bash
-cd ~/athena_ws
-colcon build
+cd ~/Athena/athena_ws/scripts
+./build.sh
 ```
 
-## Build With Symlink Install
-
-Recommended during development:
+Manual build:
 
 ```bash
-cd ~/athena_ws
+cd ~/Athena/athena_ws
+source /opt/ros/jazzy/setup.bash
 colcon build --symlink-install
-```
-
-## Clean Build
-
-Use after changing package structure:
-
-```bash
-cd ~/athena_ws
-
-rm -rf build install log
-
-colcon build --symlink-install
+source install/setup.bash
 ```
 
 ---
 
-# ROS 2 Verification
+# Launching Athena
 
-## Check ROS 2 Installation
+Launch the complete Athena system:
 
 ```bash
-ros2 --help
+cd ~/Athena/athena_ws/scripts
+./launch.sh
 ```
 
-## List ROS Packages
+Manual launch:
 
 ```bash
-ros2 pkg list
-```
+source /opt/ros/jazzy/setup.bash
+source ~/Athena/athena_ws/install/setup.bash
 
-## Find Athena Packages
-
-```bash
-ros2 pkg list | grep athena
-```
-
-## Show Package Information
-
-Example:
-
-```bash
-ros2 pkg prefix athena_core
-```
-
----
-
-# Running Athena
-
-## Launch Complete Athena System
-
-```bash
 ros2 launch athena_bringup athena.launch.py
 ```
 
-Current launch starts:
-
-* athena_manager
-* athena_health_manager
-
 ---
 
-# Running Individual Nodes
+# Cleaning the Workspace
 
-## Athena Core
+Remove all generated build files:
 
 ```bash
-ros2 run athena_core athena_manager
+cd ~/Athena/athena_ws/scripts
+./clean.sh
 ```
 
-## Athena Health Manager
+Manual clean:
 
 ```bash
-ros2 run athena_health_manager health_manager
-```
+cd ~/Athena/athena_ws
 
----
-
-# ROS 2 Topics
-
-## List Active Topics
-
-```bash
-ros2 topic list
-```
-
-## View Athena Health Data
-
-```bash
-ros2 topic echo /athena/system_health
-```
-
-## Show Topic Information
-
-```bash
-ros2 topic info /athena/system_health
-```
-
-## Show Message Type
-
-```bash
-ros2 topic type /athena/system_health
+rm -rf build install log
 ```
 
 ---
 
-# ROS 2 Interfaces
+# System Status
 
-## List Athena Interfaces
-
-```bash
-ros2 interface list | grep athena
-```
-
-## Inspect a Message
-
-Example:
+Display Athena system status:
 
 ```bash
-ros2 interface show athena_interfaces/msg/SystemHealth
+cd ~/Athena/athena_ws/scripts
+./status.sh
 ```
 
 ---
 
-# Package Creation
+# ROS Commands
 
-## Create Python Package
-
-Example:
-
-```bash
-ros2 pkg create package_name \
---build-type ament_python
-```
-
-## Create CMake Package
-
-Example:
-
-```bash
-ros2 pkg create package_name \
---build-type ament_cmake
-```
-
----
-
-# Debugging
-
-## View Node List
+List running nodes:
 
 ```bash
 ros2 node list
 ```
 
-## Node Information
-
-Example:
+List topics:
 
 ```bash
-ros2 node info /athena_manager
+ros2 topic list
 ```
 
-## Check Running Processes
+Display node information:
 
 ```bash
-ps aux | grep ros
+ros2 node info <node_name>
+```
+
+Echo SystemStatus:
+
+```bash
+ros2 topic echo /athena/system_status
+```
+
+Display a single SystemStatus message:
+
+```bash
+ros2 topic echo /athena/system_status --once
+```
+
+Show interface definition:
+
+```bash
+ros2 interface show athena_interfaces/msg/SystemStatus
 ```
 
 ---
 
-# Git Workflow (Athena Development)
+# Workspace Maintenance
 
-## Check Status
-
-```bash
-git status
-```
-
-## Add Changes
+Rebuild after package changes:
 
 ```bash
-git add .
-```
+cd ~/Athena/athena_ws
 
-## Commit Milestone
+rm -rf build install log
 
-Example:
+source /opt/ros/jazzy/setup.bash
 
-```bash
-git commit -m "Milestone: Athena health manager v0.1"
+colcon build --symlink-install
+
+source install/setup.bash
 ```
 
 ---
 
-# Current Athena Architecture
+# Current ROS Packages
 
+Current workspace packages:
+
+* athena_bringup
+* athena_core
+* athena_health_manager
+* athena_interfaces
+
+---
+
+# Current Capabilities
+
+Implemented:
+
+* Native Raspberry Pi development
+* ROS 2 Jazzy workspace
+* Athena launch system
+* Athena Core Manager
+* Health Manager
+* SystemStatus interface
+* Build automation
+* Launch automation
+* Workspace cleaning
+* Status reporting
+
+---
+
+# Planned Capabilities
+
+* Node Registry
+* Heartbeat monitoring
+* Fault detection
+* Diagnostic reporting
+* Hardware Abstraction Layer (HAL)
+* PX4 bridge
+* Rover communication
+* AI perception
+* Mission manager
+* Autonomous navigation
+* Voice interface
+
+---
+
+# Common Troubleshooting
+
+Re-source the environment:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Athena/athena_ws/install/setup.bash
 ```
-athena_ws
-|
-├── athena_interfaces
-│       |
-│       └── SystemHealth.msg
-│
-├── athena_core
-│       |
-│       └── athena_manager
-│
-├── athena_health_manager
-│       |
-│       └── health_manager
-│
-└── athena_bringup
-        |
-        └── athena.launch.py
+
+Check that ROS is available:
+
+```bash
+ros2 --help
+```
+
+Verify the workspace builds:
+
+```bash
+./build.sh
+```
+
+Launch Athena:
+
+```bash
+./launch.sh
+```
+
+Check health:
+
+```bash
+./status.sh
 ```

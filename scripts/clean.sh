@@ -6,16 +6,16 @@ echo "================================="
 echo " Athena-UAV Clean Build"
 echo "================================="
 
-WORKSPACE=~/Athena/athena_ws
+source ~/Athena/athena_ws/scripts/athena_env.sh
 
-cd $WORKSPACE
+cd $ATHENA_WS
 
-echo "Removing build files..."
+echo "Removing build artifacts..."
 
 rm -rf build
 rm -rf install
 rm -rf log
 
+echo ""
 echo "Clean complete."
-
-echo "Run ./scripts/build.sh to rebuild Athena."
+echo "Run ./build.sh to rebuild Athena."
