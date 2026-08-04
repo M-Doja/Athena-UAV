@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "athena_interfaces__rs",
+		"source" : "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/athena_interfaces__rs"
+	}
+}

@@ -1,12 +1,12 @@
 {
   "package_name": "athena_interfaces",
-  "output_dir": "/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_cpp/athena_interfaces",
+  "output_dir": "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_cpp/athena_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/SystemHealth.idl",
-    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/SystemStatus.idl",
-    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/VehicleState.idl",
-    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/MissionStatus.idl"
+    "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/SystemHealth.idl",
+    "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/SystemStatus.idl",
+    "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/VehicleState.idl",
+    "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_adapter/athena_interfaces:msg/MissionStatus.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
@@ -32,17 +32,17 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
-    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/SystemHealth.idl",
-    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/SystemStatus.idl",
-    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/VehicleState.idl",
-    "/home/doja/athena_ws/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/MissionStatus.idl",
+    "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/SystemHealth.idl",
+    "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/SystemStatus.idl",
+    "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/VehicleState.idl",
+    "/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_adapter/athena_interfaces/msg/MissionStatus.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "msg/SystemHealth.idl:/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/SystemHealth.json",
-    "msg/SystemStatus.idl:/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/SystemStatus.json",
-    "msg/VehicleState.idl:/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/VehicleState.json",
-    "msg/MissionStatus.idl:/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/MissionStatus.json"
+    "msg/SystemHealth.idl:/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/SystemHealth.json",
+    "msg/SystemStatus.idl:/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/SystemStatus.json",
+    "msg/VehicleState.idl:/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/VehicleState.json",
+    "msg/MissionStatus.idl:/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_type_description/athena_interfaces/msg/MissionStatus.json"
   ]
 }

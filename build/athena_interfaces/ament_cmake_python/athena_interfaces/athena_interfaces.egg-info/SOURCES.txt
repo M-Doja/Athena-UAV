@@ -4,8 +4,3 @@ athena_interfaces.egg-info/PKG-INFO
 athena_interfaces.egg-info/SOURCES.txt
 athena_interfaces.egg-info/dependency_links.txt
 athena_interfaces.egg-info/top_level.txt
-athena_interfaces/msg/__init__.py
-athena_interfaces/msg/_mission_status.py
-athena_interfaces/msg/_system_health.py
-athena_interfaces/msg/_system_status.py
-athena_interfaces/msg/_vehicle_state.py

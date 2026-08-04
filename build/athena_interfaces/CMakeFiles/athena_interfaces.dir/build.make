@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/doja/athena_ws/src/athena_interfaces
+CMAKE_SOURCE_DIR = /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/doja/athena_ws/build/athena_interfaces
+CMAKE_BINARY_DIR = /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces
 
 # Utility rule file for athena_interfaces.
 
@@ -66,10 +66,10 @@ include CMakeFiles/athena_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/athena_interfaces.dir/progress.make
 
-CMakeFiles/athena_interfaces: /home/doja/athena_ws/src/athena_interfaces/msg/SystemHealth.msg
-CMakeFiles/athena_interfaces: /home/doja/athena_ws/src/athena_interfaces/msg/SystemStatus.msg
-CMakeFiles/athena_interfaces: /home/doja/athena_ws/src/athena_interfaces/msg/VehicleState.msg
-CMakeFiles/athena_interfaces: /home/doja/athena_ws/src/athena_interfaces/msg/MissionStatus.msg
+CMakeFiles/athena_interfaces: /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces/msg/SystemHealth.msg
+CMakeFiles/athena_interfaces: /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces/msg/SystemStatus.msg
+CMakeFiles/athena_interfaces: /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces/msg/VehicleState.msg
+CMakeFiles/athena_interfaces: /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces/msg/MissionStatus.msg
 CMakeFiles/athena_interfaces: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/athena_interfaces: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 
@@ -86,6 +86,6 @@ CMakeFiles/athena_interfaces.dir/clean:
 .PHONY : CMakeFiles/athena_interfaces.dir/clean
 
 CMakeFiles/athena_interfaces.dir/depend:
-	cd /home/doja/athena_ws/build/athena_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/doja/athena_ws/src/athena_interfaces /home/doja/athena_ws/src/athena_interfaces /home/doja/athena_ws/build/athena_interfaces /home/doja/athena_ws/build/athena_interfaces /home/doja/athena_ws/build/athena_interfaces/CMakeFiles/athena_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/CMakeFiles/athena_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/athena_interfaces.dir/depend
 

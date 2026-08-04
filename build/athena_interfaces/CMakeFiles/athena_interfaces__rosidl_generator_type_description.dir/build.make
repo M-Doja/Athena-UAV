@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/doja/athena_ws/src/athena_interfaces
+CMAKE_SOURCE_DIR = /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/doja/athena_ws/build/athena_interfaces
+CMAKE_BINARY_DIR = /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces
 
 # Utility rule file for athena_interfaces__rosidl_generator_type_description.
 
@@ -77,8 +77,8 @@ rosidl_generator_type_description/athena_interfaces/msg/SystemHealth.json: rosid
 rosidl_generator_type_description/athena_interfaces/msg/SystemHealth.json: rosidl_adapter/athena_interfaces/msg/SystemStatus.idl
 rosidl_generator_type_description/athena_interfaces/msg/SystemHealth.json: rosidl_adapter/athena_interfaces/msg/VehicleState.idl
 rosidl_generator_type_description/athena_interfaces/msg/SystemHealth.json: rosidl_adapter/athena_interfaces/msg/MissionStatus.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/doja/athena_ws/build/athena_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/doja/athena_ws/build/athena_interfaces/rosidl_generator_type_description__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/athena_interfaces/msg/SystemStatus.json: rosidl_generator_type_description/athena_interfaces/msg/SystemHealth.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/athena_interfaces/msg/SystemStatus.json
@@ -106,6 +106,6 @@ CMakeFiles/athena_interfaces__rosidl_generator_type_description.dir/clean:
 .PHONY : CMakeFiles/athena_interfaces__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/athena_interfaces__rosidl_generator_type_description.dir/depend:
-	cd /home/doja/athena_ws/build/athena_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/doja/athena_ws/src/athena_interfaces /home/doja/athena_ws/src/athena_interfaces /home/doja/athena_ws/build/athena_interfaces /home/doja/athena_ws/build/athena_interfaces /home/doja/athena_ws/build/athena_interfaces/CMakeFiles/athena_interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/CMakeFiles/athena_interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/athena_interfaces__rosidl_generator_type_description.dir/depend
 

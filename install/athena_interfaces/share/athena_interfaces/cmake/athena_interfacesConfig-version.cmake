@@ -1,1 +1,1 @@
-/home/doja/athena_ws/build/athena_interfaces/ament_cmake_core/athena_interfacesConfig-version.cmake
+/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/ament_cmake_core/athena_interfacesConfig-version.cmake

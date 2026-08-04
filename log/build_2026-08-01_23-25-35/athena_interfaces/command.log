@@ -1,1 +1,0 @@
-Invoking command in '/home/doja/athena_ws/build/athena_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doja/athena_ws/install/athena_health_manager:/home/doja/athena_ws/install/athena_core:/home/doja/athena_ws/install/athena_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/doja/athena_ws/build/athena_interfaces -- -j12 -l12

@@ -1,0 +1,296 @@
+[0.079s] Invoking command in '/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces
+[1.698s] -- The C compiler identification is GNU 13.3.0
+[2.818s] -- The CXX compiler identification is GNU 13.3.0
+[2.978s] -- Detecting C compiler ABI info
+[3.846s] -- Detecting C compiler ABI info - done
+[3.905s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.909s] -- Detecting C compile features
+[3.930s] -- Detecting C compile features - done
+[4.004s] -- Detecting CXX compiler ABI info
+[4.821s] -- Detecting CXX compiler ABI info - done
+[4.872s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.875s] -- Detecting CXX compile features
+[4.877s] -- Detecting CXX compile features - done
+[4.921s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.150s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.810s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.310s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[7.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.866s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[8.942s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[13.955s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[17.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.848s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.880s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[22.833s] -- Found PythonExtra: /usr/bin/python3  
+[26.264s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[26.731s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[26.896s] -- Configuring done (26.5s)
+[27.209s] -- Generating done (0.3s)
+[27.299s] -- Build files have been written to: /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces
+[27.337s] Invoked command in '/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces
+[27.346s] Invoking command in '/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces -- -j4 -l4
+[27.765s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[27.772s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[27.881s] [  3%] Built target ament_cmake_python_symlink_athena_interfaces
+[30.615s] [  3%] Built target athena_interfaces__rs
+[30.624s] [  3%] Built target athena_interfaces__rosidl_generator_type_description
+[30.698s] running egg_info
+[30.712s] creating athena_interfaces.egg-info
+[30.732s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[30.928s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[31.009s] writing athena_interfaces.egg-info/PKG-INFO
+[31.011s] writing dependency_links to athena_interfaces.egg-info/dependency_links.txt
+[31.014s] writing top-level names to athena_interfaces.egg-info/top_level.txt
+[31.015s] writing manifest file 'athena_interfaces.egg-info/SOURCES.txt'
+[31.967s] reading manifest file 'athena_interfaces.egg-info/SOURCES.txt'
+[31.974s] writing manifest file 'athena_interfaces.egg-info/SOURCES.txt'
+[32.232s] [  6%] Built target ament_cmake_python_build_athena_interfaces_egg
+[34.521s] [  6%] Built target athena_interfaces__cpp
+[34.984s] [  7%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/system_health__functions.c.o[0m
+[34.991s] [  9%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/system_health__description.c.o[0m
+[34.992s] [ 10%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/system_health__type_support.c.o[0m
+[35.335s] [ 12%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/system_status__description.c.o[0m
+[35.379s] [ 13%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/system_status__functions.c.o[0m
+[35.496s] [ 15%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/system_status__type_support.c.o[0m
+[35.695s] [ 16%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/vehicle_state__description.c.o[0m
+[35.880s] [ 18%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/vehicle_state__functions.c.o[0m
+[35.966s] [ 20%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/vehicle_state__type_support.c.o[0m
+[36.038s] [ 21%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__description.c.o[0m
+[36.110s] [ 23%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__functions.c.o[0m
+[36.270s] [ 24%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_c.dir/rosidl_generator_c/athena_interfaces/msg/detail/mission_status__type_support.c.o[0m
+[36.641s] [ 26%] [32m[1mLinking C shared library libathena_interfaces__rosidl_generator_c.so[0m
+[36.953s] [ 26%] Built target athena_interfaces__rosidl_generator_c
+[37.027s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[37.034s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[37.038s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[38.078s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[40.055s] [ 33%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/athena_interfaces/msg/system_health__type_support.cpp.o[0m
+[41.455s] [ 35%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/athena_interfaces/msg/detail/dds_fastrtps/system_health__type_support.cpp.o[0m
+[41.717s] [ 36%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/athena_interfaces/msg/detail/system_health__type_support.cpp.o[0m
+[41.898s] [ 38%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/athena_interfaces/msg/detail/system_health__type_support_c.cpp.o[0m
+[45.473s] [ 40%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/athena_interfaces/msg/system_status__type_support.cpp.o[0m
+[46.474s] [ 41%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/athena_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[47.783s] [ 43%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/athena_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[48.127s] [ 44%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/athena_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[48.625s] [ 46%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/athena_interfaces/msg/vehicle_state__type_support.cpp.o[0m
+[49.172s] [ 47%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/athena_interfaces/msg/detail/vehicle_state__type_support.cpp.o[0m
+[52.242s] [ 49%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/athena_interfaces/msg/mission_status__type_support.cpp.o[0m
+[52.556s] [ 50%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/athena_interfaces/msg/detail/vehicle_state__type_support_c.cpp.o[0m
+[52.777s] [ 52%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/athena_interfaces/msg/detail/mission_status__type_support.cpp.o[0m
+[52.985s] [ 53%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/athena_interfaces/msg/detail/dds_fastrtps/vehicle_state__type_support.cpp.o[0m
+[54.707s] [ 55%] [32m[1mLinking CXX shared library libathena_interfaces__rosidl_typesupport_cpp.so[0m
+[55.169s] [ 55%] Built target athena_interfaces__rosidl_typesupport_cpp
+[55.329s] [ 56%] [32m[1mLinking CXX shared library libathena_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[55.807s] [ 56%] Built target athena_interfaces__rosidl_typesupport_introspection_cpp
+[56.185s] [ 58%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/athena_interfaces/msg/detail/mission_status__type_support_c.cpp.o[0m
+[56.552s] [ 60%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/athena_interfaces/msg/detail/dds_fastrtps/mission_status__type_support.cpp.o[0m
+[58.882s] [ 61%] [32m[1mLinking CXX shared library libathena_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[59.365s] [ 61%] Built target athena_interfaces__rosidl_typesupport_fastrtps_c
+[59.383s] [ 63%] [32m[1mLinking CXX shared library libathena_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[59.811s] [ 63%] Built target athena_interfaces__rosidl_typesupport_fastrtps_cpp
+[59.878s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[61.287s] [ 66%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/athena_interfaces/msg/system_health__type_support.cpp.o[0m
+[61.537s] [ 67%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/athena_interfaces/msg/vehicle_state__type_support.cpp.o[0m
+[61.791s] [ 69%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/athena_interfaces/msg/mission_status__type_support.cpp.o[0m
+[62.036s] [ 70%] [32mBuilding CXX object CMakeFiles/athena_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/athena_interfaces/msg/system_status__type_support.cpp.o[0m
+[62.278s] [ 72%] [32m[1mLinking CXX shared library libathena_interfaces__rosidl_typesupport_c.so[0m
+[62.534s] [ 72%] Built target athena_interfaces__rosidl_typesupport_c
+[62.600s] [ 73%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[64.413s] [ 75%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_health__type_support.c.o[0m
+[65.457s] [ 76%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/mission_status__type_support.c.o[0m
+[65.671s] [ 78%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/vehicle_state__type_support.c.o[0m
+[65.887s] [ 80%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/athena_interfaces/msg/detail/system_status__type_support.c.o[0m
+[66.119s] [ 81%] [32m[1mLinking C shared library libathena_interfaces__rosidl_typesupport_introspection_c.so[0m
+[66.332s] [ 81%] Built target athena_interfaces__rosidl_typesupport_introspection_c
+[66.459s] [ 81%] Built target athena_interfaces
+[66.583s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[70.015s] [ 83%] Built target athena_interfaces__py
+[70.156s] [ 84%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_py.dir/rosidl_generator_py/athena_interfaces/msg/_system_health_s.c.o[0m
+[71.733s] [ 86%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_py.dir/rosidl_generator_py/athena_interfaces/msg/_mission_status_s.c.o[0m
+[73.026s] [ 87%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_py.dir/rosidl_generator_py/athena_interfaces/msg/_vehicle_state_s.c.o[0m
+[74.173s] [ 89%] [32mBuilding C object CMakeFiles/athena_interfaces__rosidl_generator_py.dir/rosidl_generator_py/athena_interfaces/msg/_system_status_s.c.o[0m
+[74.901s] [ 90%] [32m[1mLinking C shared library libathena_interfaces__rosidl_generator_py.so[0m
+[75.177s] [ 90%] Built target athena_interfaces__rosidl_generator_py
+[75.298s] [ 92%] [32mBuilding C object CMakeFiles/athena_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[75.907s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/athena_interfaces/athena_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[76.095s] [ 93%] Built target athena_interfaces_s__rosidl_typesupport_fastrtps_c
+[76.221s] [ 95%] [32mBuilding C object CMakeFiles/athena_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[76.777s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/athena_interfaces/athena_interfaces_s__rosidl_typesupport_c.so[0m
+[76.955s] [ 96%] Built target athena_interfaces_s__rosidl_typesupport_c
+[77.082s] [ 98%] [32mBuilding C object CMakeFiles/athena_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[77.657s] [100%] [32m[1mLinking C shared module rosidl_generator_py/athena_interfaces/athena_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[77.843s] [100%] Built target athena_interfaces_s__rosidl_typesupport_introspection_c
+[77.916s] Invoked command in '/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces -- -j4 -l4
+[77.968s] Invoking command in '/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces
+[78.016s] -- Install configuration: ""
+[78.020s] -- Execute custom install script
+[78.022s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/ament_index/resource_index/rosidl_interfaces/athena_interfaces
+[78.073s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/SystemHealth.json
+[78.129s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/SystemStatus.json
+[78.180s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/VehicleState.json
+[78.233s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/MissionStatus.json
+[78.293s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__functions.h
+[78.343s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__struct.h
+[78.396s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__type_support.h
+[78.446s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__functions.h
+[78.498s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__struct.h
+[78.549s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__type_support.h
+[78.602s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__functions.h
+[78.652s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__struct.h
+[78.705s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__type_support.h
+[78.754s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__functions.h
+[78.807s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__struct.h
+[78.856s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__type_support.h
+[78.909s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/mission_status.h
+[78.973s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_generator_c__visibility_control.h
+[79.013s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/system_health.h
+[79.062s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/system_status.h
+[79.117s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/vehicle_state.h
+[79.168s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/environment/library_path.sh
+[79.224s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/environment/library_path.dsv
+[79.276s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_c.h
+[79.329s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__rosidl_typesupport_fastrtps_c.h
+[79.379s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[79.432s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_c.h
+[79.489s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[79.542s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_c.h
+[79.596s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__rosidl_typesupport_introspection_c.h
+[79.645s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[79.698s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_introspection_c.h
+[79.748s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[79.804s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__builder.hpp
+[79.852s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__struct.hpp
+[79.906s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__traits.hpp
+[79.956s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__type_support.hpp
+[80.009s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__builder.hpp
+[80.059s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__struct.hpp
+[80.113s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__traits.hpp
+[80.162s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__type_support.hpp
+[80.219s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__builder.hpp
+[80.265s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__struct.hpp
+[80.319s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__traits.hpp
+[80.369s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__type_support.hpp
+[80.423s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__builder.hpp
+[80.472s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__struct.hpp
+[80.525s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__traits.hpp
+[80.574s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__type_support.hpp
+[80.626s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/mission_status.hpp
+[80.675s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[80.727s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/system_health.hpp
+[80.775s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/system_status.hpp
+[80.827s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/vehicle_state.hpp
+[80.880s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_cpp.hpp
+[80.931s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__rosidl_typesupport_fastrtps_cpp.hpp
+[80.982s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[81.034s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_cpp.hpp
+[81.083s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[81.139s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_cpp.hpp
+[81.194s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_health__rosidl_typesupport_introspection_cpp.hpp
+[81.242s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[81.293s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/include/athena_interfaces/athena_interfaces/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp
+[81.343s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/environment/pythonpath.sh
+[81.395s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/environment/pythonpath.dsv
+[81.445s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[81.498s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[81.548s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[81.601s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[81.656s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/__init__.py
+[81.707s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_c.c
+[81.756s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[81.810s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/_athena_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[81.860s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_c.so
+[81.913s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[81.962s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_introspection_c.so
+[82.016s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/__init__.py
+[82.066s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_mission_status.py
+[82.122s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_mission_status_s.c
+[82.173s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_health.py
+[82.228s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_health_s.c
+[82.277s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_status.py
+[82.330s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_status_s.c
+[82.379s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_vehicle_state.py
+[82.432s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_vehicle_state_s.c
+[82.482s] -- Up-to-date symlink: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[82.484s] -- Up-to-date symlink: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_introspection_c.so
+[82.485s] -- Up-to-date symlink: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/athena_interfaces_s__rosidl_typesupport_c.so
+[82.486s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/ament_index/resource_index/rust_packages/athena_interfaces
+[82.539s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/rust/Cargo.toml
+[82.591s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/rust/build.rs
+[82.642s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/rust/src/lib.rs
+[82.692s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/rust/src/msg.rs
+[82.741s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/rust/src/msg/rmw.rs
+[82.791s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/SystemHealth.idl
+[82.841s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/SystemStatus.idl
+[82.890s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/VehicleState.idl
+[82.943s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/MissionStatus.idl
+[82.995s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/SystemHealth.msg
+[83.044s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/SystemStatus.msg
+[83.098s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/VehicleState.msg
+[83.146s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/msg/MissionStatus.msg
+[83.201s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/ament_index/resource_index/package_run_dependencies/athena_interfaces
+[83.248s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/ament_index/resource_index/parent_prefix_path/athena_interfaces
+[83.302s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/environment/ament_prefix_path.sh
+[83.351s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/environment/ament_prefix_path.dsv
+[83.403s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/environment/path.sh
+[83.453s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/environment/path.dsv
+[83.507s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/local_setup.bash
+[83.557s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/local_setup.sh
+[83.610s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/local_setup.zsh
+[83.660s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/local_setup.dsv
+[83.713s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/package.dsv
+[83.763s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/ament_index/resource_index/packages/athena_interfaces
+[83.817s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/rosidl_cmake-extras.cmake
+[83.867s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[83.920s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[83.970s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[84.023s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[84.076s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[84.128s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[84.180s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[84.234s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfacesConfig.cmake
+[84.284s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfacesConfig-version.cmake
+[84.336s] -- Symlinking: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/package.xml
+[84.385s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_generator_c.so
+[84.388s] -- Set non-toolchain portion of runtime path of "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_generator_c.so" to ""
+[84.389s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_fastrtps_c.so
+[84.394s] -- Set non-toolchain portion of runtime path of "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[84.395s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_introspection_c.so
+[84.400s] -- Set non-toolchain portion of runtime path of "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[84.401s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_c.so
+[84.404s] -- Set non-toolchain portion of runtime path of "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_c.so" to ""
+[84.405s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[84.409s] -- Set non-toolchain portion of runtime path of "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[84.409s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_introspection_cpp.so
+[84.412s] -- Set non-toolchain portion of runtime path of "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[84.413s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_cpp.so
+[84.416s] -- Set non-toolchain portion of runtime path of "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_typesupport_cpp.so" to ""
+[84.633s] Listing '/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces'...
+[84.634s] Compiling '/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/__init__.py'...
+[84.635s] Listing '/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg'...
+[84.636s] Compiling '/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/__init__.py'...
+[84.637s] Compiling '/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_mission_status.py'...
+[84.638s] Compiling '/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_health.py'...
+[84.639s] Compiling '/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_system_status.py'...
+[84.639s] Compiling '/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages/athena_interfaces/msg/_vehicle_state.py'...
+[84.664s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_generator_py.so
+[84.667s] -- Set non-toolchain portion of runtime path of "/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/libathena_interfaces__rosidl_generator_py.so" to ""
+[84.668s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_cExport.cmake
+[84.670s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_cExport-noconfig.cmake
+[84.672s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[84.675s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[84.677s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[84.679s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[84.681s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_cExport.cmake
+[84.683s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[84.685s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_cppExport.cmake
+[84.687s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[84.688s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[84.690s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[84.692s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[84.694s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_cppExport.cmake
+[84.696s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/athena_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[84.699s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_pyExport.cmake
+[84.701s] -- Installing: /home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/share/athena_interfaces/cmake/export_athena_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[84.713s] Invoked command in '/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces

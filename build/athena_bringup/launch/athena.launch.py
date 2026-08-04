@@ -1,1 +1,1 @@
-/home/doja/athena_ws/src/athena_bringup/launch/athena.launch.py
+/home/athena-uav/Athena/Athena-UAV/src/athena_bringup/launch/athena.launch.py

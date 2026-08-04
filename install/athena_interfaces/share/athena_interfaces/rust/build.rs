@@ -1,1 +1,1 @@
-/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_rs/athena_interfaces/rust/build.rs
+/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_rs/athena_interfaces/rust/build.rs

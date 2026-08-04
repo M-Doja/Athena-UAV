@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/doja/athena_ws/src/athena_interfaces
+CMAKE_SOURCE_DIR = /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/doja/athena_ws/build/athena_interfaces
+CMAKE_BINARY_DIR = /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces
 
 # Utility rule file for athena_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/athena_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/athena_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/athena_interfaces_uninstall:
-	/usr/bin/cmake -P /home/doja/athena_ws/build/athena_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 athena_interfaces_uninstall: CMakeFiles/athena_interfaces_uninstall
 athena_interfaces_uninstall: CMakeFiles/athena_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/athena_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/athena_interfaces_uninstall.dir/clean
 
 CMakeFiles/athena_interfaces_uninstall.dir/depend:
-	cd /home/doja/athena_ws/build/athena_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/doja/athena_ws/src/athena_interfaces /home/doja/athena_ws/src/athena_interfaces /home/doja/athena_ws/build/athena_interfaces /home/doja/athena_ws/build/athena_interfaces /home/doja/athena_ws/build/athena_interfaces/CMakeFiles/athena_interfaces_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/CMakeFiles/athena_interfaces_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/athena_interfaces_uninstall.dir/depend
 

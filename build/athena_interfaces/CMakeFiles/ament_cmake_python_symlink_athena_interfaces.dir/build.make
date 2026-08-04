@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/doja/athena_ws/src/athena_interfaces
+CMAKE_SOURCE_DIR = /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/doja/athena_ws/build/athena_interfaces
+CMAKE_BINARY_DIR = /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces
 
 # Utility rule file for ament_cmake_python_symlink_athena_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/compiler_dep
 include CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_athena_interfaces:
-	/usr/bin/cmake -E create_symlink /home/doja/athena_ws/build/athena_interfaces/rosidl_generator_py/athena_interfaces /home/doja/athena_ws/build/athena_interfaces/ament_cmake_python/athena_interfaces/athena_interfaces
+	/usr/bin/cmake -E create_symlink /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_py/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/ament_cmake_python/athena_interfaces/athena_interfaces
 
 ament_cmake_python_symlink_athena_interfaces: CMakeFiles/ament_cmake_python_symlink_athena_interfaces
 ament_cmake_python_symlink_athena_interfaces: CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/depend:
-	cd /home/doja/athena_ws/build/athena_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/doja/athena_ws/src/athena_interfaces /home/doja/athena_ws/src/athena_interfaces /home/doja/athena_ws/build/athena_interfaces /home/doja/athena_ws/build/athena_interfaces /home/doja/athena_ws/build/athena_interfaces/CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces /home/athena-uav/Athena/Athena-UAV/src/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces /home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_symlink_athena_interfaces.dir/depend
 

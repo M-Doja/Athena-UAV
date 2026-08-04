@@ -1,1 +1,1 @@
-/home/doja/athena_ws/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/detail/system_health__functions.h
+/home/athena-uav/Athena/Athena-UAV/build/athena_interfaces/rosidl_generator_c/athena_interfaces/msg/detail/system_health__functions.h

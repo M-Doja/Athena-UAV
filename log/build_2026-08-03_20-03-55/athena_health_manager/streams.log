@@ -1,0 +1,24 @@
+[7.719s] Invoking command in '/home/athena-uav/Athena/Athena-UAV/build/athena_health_manager': AMENT_PREFIX_PATH=/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/Athena-UAV/build/athena_health_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/Athena-UAV/build/athena_health_manager/build --no-deps symlink_data
+[9.852s] running develop
+[11.314s] running egg_info
+[11.317s] creating athena_health_manager.egg-info
+[11.451s] writing athena_health_manager.egg-info/PKG-INFO
+[11.458s] writing dependency_links to athena_health_manager.egg-info/dependency_links.txt
+[11.458s] writing entry points to athena_health_manager.egg-info/entry_points.txt
+[11.459s] writing requirements to athena_health_manager.egg-info/requires.txt
+[11.460s] writing top-level names to athena_health_manager.egg-info/top_level.txt
+[11.461s] writing manifest file 'athena_health_manager.egg-info/SOURCES.txt'
+[11.732s] reading manifest file 'athena_health_manager.egg-info/SOURCES.txt'
+[11.736s] writing manifest file 'athena_health_manager.egg-info/SOURCES.txt'
+[11.865s] running build_ext
+[11.866s] Creating /home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/lib/python3.12/site-packages/athena-health-manager.egg-link (link to .)
+[11.869s] Installing health_manager script to /home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/lib/athena_health_manager
+[11.871s] 
+[11.872s] Installed /home/athena-uav/Athena/Athena-UAV/build/athena_health_manager
+[11.874s] running symlink_data
+[11.875s] creating /home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/share/ament_index
+[11.876s] creating /home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/share/ament_index/resource_index
+[11.877s] creating /home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/share/ament_index/resource_index/packages
+[11.878s] symbolically linking /home/athena-uav/Athena/Athena-UAV/build/athena_health_manager/resource/athena_health_manager -> /home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/share/ament_index/resource_index/packages
+[11.879s] symbolically linking /home/athena-uav/Athena/Athena-UAV/build/athena_health_manager/package.xml -> /home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/share/athena_health_manager
+[12.100s] Invoked command in '/home/athena-uav/Athena/Athena-UAV/build/athena_health_manager' returned '0': AMENT_PREFIX_PATH=/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athena-uav/Athena/Athena-UAV/build/athena_health_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athena-uav/Athena/Athena-UAV/install/athena_health_manager/lib/python3.12/site-packages:/home/athena-uav/Athena/Athena-UAV/install/athena_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athena-uav/Athena/Athena-UAV/build/athena_health_manager/build --no-deps symlink_data

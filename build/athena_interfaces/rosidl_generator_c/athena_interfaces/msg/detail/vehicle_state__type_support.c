@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "athena_interfaces/msg/detail/vehicle_state__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "athena_interfaces/msg/detail/vehicle_state__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "athena_interfaces/msg/detail/vehicle_state__struct.h"
 #include "athena_interfaces/msg/detail/vehicle_state__type_support.h"
 
 #ifdef __cplusplus

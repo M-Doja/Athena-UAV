@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "athena_interfaces/msg/detail/system_health__type_support.h"
 #include "athena_interfaces/msg/detail/system_health__struct.h"
-#include "athena_interfaces/msg/detail/system_health__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "athena_interfaces/msg/detail/system_health__functions.h"
+#include "athena_interfaces/msg/detail/system_health__type_support.h"
 
 #ifdef __cplusplus
 extern "C"
